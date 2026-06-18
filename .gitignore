@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Data Files
+data/raw/
+data/supporting/
+
+# Output Files
+output/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
