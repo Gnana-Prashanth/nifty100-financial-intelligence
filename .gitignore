@@ -13,7 +13,8 @@ data/raw/
 data/supporting/
 
 # Output Files
-output/
+output/*
+!output/validation_failures.csv
 
 # VS Code
 .vscode/
