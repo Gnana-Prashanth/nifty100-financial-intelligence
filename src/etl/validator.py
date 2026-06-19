@@ -1,61 +1,72 @@
-#not in this file
 import pandas as pd
 
-df = pd.read_excel("data/raw/profitandloss.xlsx", header=1)
-
-print("profitandloss")
-dups = df[df.duplicated(
-    subset=["company_id","year"],
-    keep=False
-)]
-
-print(dups[["company_id","year"]].sort_values(
-    ["company_id","year"]
-))
-
-
-print("Unique values", df["company_id"].nunique())
-
-print("Null values",df.isnull().sum().sum())
-print("\n")
+def check_duplicates(df):
+    
+    duplicates = df.duplicated(subset=["company_id","year"]).sum()
+    return duplicates
 
 
 
-df = pd.read_excel("data/raw/balancesheet.xlsx", header=1)
+def foreign_key_check(
+        child_df,
+        parent_df,
+        child_col = "company_id",
+        parent_col = "id"
+):
+    child_ids = set(
+        child_df[child_col].dropna().unique()
+    )
 
-print("balancesheet")
-dups = df[df.duplicated(
-    subset=["company_id","year"],
-    keep=False
-)]
+    parent_ids = set(
+        parent_df[parent_col].dropna().unique()
+    )
 
-print(dups[["company_id","year"]].sort_values(
-    ["company_id","year"]
-))
-
-
-print("Unique values", df["company_id"].nunique())
-
-print("Null values",df.isnull().sum().sum())
-print("\n")
-
+    extra_ids = child_ids - parent_ids
+    return sorted(extra_ids)
 
 
 
-df = pd.read_excel("data/raw/cashflow.xlsx", header=1)
-
-print("cashflow")
-dups = df[df.duplicated(
-    subset=["company_id","year"],
-    keep=False
-)]
-
-print(dups[["company_id","year"]].sort_values(
-    ["company_id","year"]
-))
+def null_value_check(df):
+    nulls = df.isnull().sum()
+    return nulls[nulls > 0]
 
 
-print("Unique values", df["company_id"].nunique())
 
-print("Null values",df.isnull().sum().sum())
+def balance_sheet_check(df):
 
+    failures = df[
+        abs(df["total_assets"] - df["total_liabilities"])
+        > (df["total_assets"] * 0.01)
+    ]
+
+    return len(failures)
+
+
+
+def opm_check(df):
+
+    temp = df.copy()
+
+    temp["calculated_opm"] = (
+        temp["operating_profit"]
+        / temp["sales"]
+    ) * 100
+
+    failures = temp[
+        abs(
+            temp["calculated_opm"]
+            - temp["opm_percentage"]
+        ) > 1
+    ]
+
+    return failures
+
+
+
+def positive_sales_check(df):
+
+    failures = df[
+        df["sales"] <= 0
+    ]
+
+    return len(failures)
