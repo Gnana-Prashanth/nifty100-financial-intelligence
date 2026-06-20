@@ -16,6 +16,7 @@ CREATE TABLE companies (
 );
 
 CREATE TABLE profitandloss (
+    id INTEGER,
     company_id TEXT,
     year TEXT,
     sales REAL,
@@ -36,6 +37,7 @@ CREATE TABLE profitandloss (
 );
 
 CREATE TABLE balancesheet (
+    id INTEGER,
     company_id TEXT,
     year TEXT,
     equity_capital REAL,
@@ -54,6 +56,7 @@ CREATE TABLE balancesheet (
 );
 
 CREATE TABLE cashflow (
+    id INTEGER,
     company_id TEXT,
     year TEXT,
     operating_activity REAL,
@@ -95,6 +98,7 @@ CREATE TABLE prosandcons (
 );
 
 CREATE TABLE financial_ratios (
+    id INTEGER,
     company_id TEXT,
     year TEXT,
     net_profit_margin_pct REAL,
@@ -116,6 +120,7 @@ CREATE TABLE financial_ratios (
 );
 
 CREATE TABLE market_cap (
+    id INTEGER,
     company_id TEXT,
     year TEXT,
     market_cap_crore REAL,
@@ -139,6 +144,7 @@ CREATE TABLE peer_groups (
 );
 
 CREATE TABLE sectors (
+    id INTEGER,
     company_id TEXT PRIMARY KEY,
     broad_sector TEXT,
     sub_sector TEXT,
@@ -149,6 +155,7 @@ CREATE TABLE sectors (
 );
 
 CREATE TABLE stock_prices (
+    id INTEGER,
     company_id TEXT,
     date TEXT,
     open_price REAL,
