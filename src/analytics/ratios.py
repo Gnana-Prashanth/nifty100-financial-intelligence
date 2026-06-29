@@ -92,3 +92,109 @@ def return_on_assets(net_profit, total_assets):
         return None
 
     return (net_profit / total_assets) * 100
+
+
+
+#Debt-to-Equity Ratio (D/E) - "For every ₹1 of shareholders' money, how much debt has the company borrowed?"
+
+def debt_to_equity(borrowings, equity_capital, reserves):
+    """
+    Debt-to-Equity = Borrowings / (Equity + Reserves)
+    """
+
+    if borrowings == 0:
+        return 0
+
+    total_equity = equity_capital + reserves
+
+    if total_equity <= 0:
+        return None
+
+    return borrowings / total_equity
+
+
+
+def high_leverage_flag(de_ratio, sector):  #High Leverage Flag - This is not a ratio, It's a warning flag
+    """
+    Returns True if D/E > 5 and company is not in Financials sector.
+    """
+
+    if de_ratio is None:
+        return False
+
+    return de_ratio > 5 and sector.lower() != "financials"
+
+
+
+#Interest Coverage Ratio (ICR) - "Can the company comfortably pay the interest on its loans?"
+#Ex: Suppose- Operating Profit = 400Cr, Other Income = 100Cr, Interest=50Cr
+#Total earnings available: 400+100=500Cr | Now, ICR = 500 / 50 = 10
+#Meaning: The company earns 10 times the amount needed to pay its interest. That's very healthy.
+
+def interest_coverage_ratio(
+    operating_profit,
+    other_income,
+    interest
+):
+    """
+    ICR = (Operating Profit + Other Income) / Interest
+    """
+
+    if interest == 0:
+        return None
+
+    return (
+        operating_profit +
+        other_income
+    ) / interest
+
+
+
+def icr_label(icr):
+    """
+    Returns 'Debt Free' if ICR is None.
+    """
+
+    if icr is None:
+        return "Debt Free"
+
+    return None
+
+
+
+#ICR Warning Flag - If ICR < 1.5 → company is at risk of not covering interest payments.
+
+def icr_warning_flag(icr):
+    """
+    Returns True if ICR < 1.5
+    """
+
+    if icr is None:
+        return False
+
+    return icr < 1.5
+
+
+
+#Net Debt - "After using available investments (liquid assets) to repay debt, how much debt would still remain?"
+
+def net_debt(borrowings, investments):
+    """
+    Net Debt = Borrowings - Investments
+    """
+
+    return borrowings - investments
+
+
+
+#Asset Turnover - "How efficiently is the company using its assets to generate sales?"
+
+def asset_turnover(sales, total_assets):
+    """
+    Asset Turnover = Sales / Total Assets
+    """
+
+    if total_assets == 0:
+        return None
+
+    return sales / total_assets
