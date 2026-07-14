@@ -17,6 +17,7 @@ output/*
 !output/validation_failures.csv
 !output/load_audit.csv
 !generate_validation_report.py
+!capital_allocation.csv
 
 # VS Code
 .vscode/

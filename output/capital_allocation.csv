@@ -1,0 +1,1165 @@
+company_id,year,cfo_sign,cfi_sign,cff_sign,pattern_label
+TCS,Mar-13,+,-,-,Reinvestor
+TCS,Mar-14,+,-,-,Reinvestor
+TCS,Mar-15,+,-,-,Reinvestor
+TCS,Mar-16,+,-,-,Reinvestor
+TCS,Mar-17,+,-,-,Reinvestor
+TCS,Mar-18,+,+,-,Liquidating Assets
+TCS,Mar-19,+,+,-,Liquidating Assets
+TCS,Mar-20,+,+,-,Liquidating Assets
+TCS,Mar-21,+,-,-,Reinvestor
+TCS,Mar-22,+,-,-,Reinvestor
+TCS,Mar-23,+,+,-,Liquidating Assets
+TCS,Mar-24,+,+,-,Liquidating Assets
+ABB,Dec 2012,+,-,-,Reinvestor
+ABB,Mar 2014,+,-,-,Reinvestor
+ABB,Mar 2015,+,-,-,Reinvestor
+ABB,Mar 2016,+,-,-,Reinvestor
+ABB,Mar 2017,+,-,-,Reinvestor
+ABB,Mar 2018,+,-,-,Reinvestor
+ABB,Mar 2019,+,-,-,Reinvestor
+ABB,Mar 2020,+,-,-,Reinvestor
+ABB,Mar 2021,+,-,-,Reinvestor
+ABB,Mar 2022,+,-,-,Reinvestor
+ABB,Mar 2023,+,-,-,Reinvestor
+ABB,Mar 2024,+,-,-,Reinvestor
+ADANIENSOL,Mar 2014,+,+,+,Cash Accumulator
+ADANIENSOL,Mar 2015,-,-,+,Mixed
+ADANIENSOL,Mar 2016,+,-,-,Reinvestor
+ADANIENSOL,Mar 2017,+,-,-,Reinvestor
+ADANIENSOL,Mar 2018,+,-,+,Growth Funded by Debt
+ADANIENSOL,Mar 2019,+,-,+,Growth Funded by Debt
+ADANIENSOL,Mar 2020,+,-,+,Growth Funded by Debt
+ADANIENSOL,Mar 2021,+,-,-,Reinvestor
+ADANIENSOL,Mar 2022,+,-,-,Reinvestor
+ADANIENSOL,Mar 2023,+,-,+,Growth Funded by Debt
+ADANIENSOL,Mar 2024,+,-,-,Reinvestor
+ADANIENT,Mar 2013,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2014,+,-,-,Reinvestor
+ADANIENT,Mar 2015,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2016,+,-,-,Reinvestor
+ADANIENT,Mar 2017,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2018,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2019,+,+,-,Liquidating Assets
+ADANIENT,Mar 2020,+,-,-,Reinvestor
+ADANIENT,Mar 2021,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2022,+,-,+,Growth Funded by Debt
+ADANIENT,Mar 2023,+,-,-,Reinvestor
+ADANIENT,Mar 2024,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2017,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2018,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2019,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2020,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2021,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2022,+,-,+,Growth Funded by Debt
+ADANIGREEN,Mar 2023,+,-,-,Reinvestor
+ADANIGREEN,Mar 2024,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2013,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2014,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2015,+,-,-,Reinvestor
+ADANIPORTS,Mar 2016,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2017,+,-,-,Reinvestor
+ADANIPORTS,Mar 2018,+,-,-,Reinvestor
+ADANIPORTS,Mar 2019,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2020,+,-,-,Reinvestor
+ADANIPORTS,Mar 2021,+,-,+,Growth Funded by Debt
+ADANIPORTS,Mar 2022,+,-,-,Reinvestor
+ADANIPORTS,Mar 2023,+,-,-,Reinvestor
+ADANIPORTS,Mar 2024,+,-,-,Reinvestor
+ADANIPOWER,Mar 2013,+,-,+,Growth Funded by Debt
+ADANIPOWER,Mar 2014,+,-,+,Growth Funded by Debt
+ADANIPOWER,Mar 2015,+,-,-,Reinvestor
+ADANIPOWER,Mar 2016,+,-,-,Reinvestor
+ADANIPOWER,Mar 2017,+,-,-,Reinvestor
+ADANIPOWER,Mar 2018,+,-,-,Reinvestor
+ADANIPOWER,Mar 2019,+,-,-,Reinvestor
+ADANIPOWER,Mar 2020,+,-,-,Reinvestor
+ADANIPOWER,Mar 2021,+,-,-,Reinvestor
+ADANIPOWER,Mar 2022,+,+,-,Liquidating Assets
+ADANIPOWER,Mar 2023,+,+,-,Liquidating Assets
+ADANIPOWER,Mar 2024,+,+,-,Liquidating Assets
+AMBUJACEM,Dec 2012,+,-,-,Reinvestor
+AMBUJACEM,Dec 2013,+,-,-,Reinvestor
+AMBUJACEM,Dec 2014,+,-,-,Reinvestor
+AMBUJACEM,Dec 2015,+,-,-,Reinvestor
+AMBUJACEM,Dec 2016,+,-,-,Reinvestor
+AMBUJACEM,Dec 2017,+,-,-,Reinvestor
+AMBUJACEM,Dec 2018,+,-,-,Reinvestor
+AMBUJACEM,Dec 2019,+,-,-,Reinvestor
+AMBUJACEM,Dec 2020,+,-,-,Reinvestor
+AMBUJACEM,Dec 2021,+,-,-,Reinvestor
+AMBUJACEM,Mar 2023,+,-,+,Growth Funded by Debt
+AMBUJACEM,Mar 2024,+,-,+,Growth Funded by Debt
+APOLLOHOSP,Mar 2013,+,-,+,Growth Funded by Debt
+APOLLOHOSP,Mar 2014,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2015,+,-,+,Growth Funded by Debt
+APOLLOHOSP,Mar 2016,+,-,+,Growth Funded by Debt
+APOLLOHOSP,Mar 2017,+,-,+,Growth Funded by Debt
+APOLLOHOSP,Mar 2018,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2019,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2020,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2021,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2022,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2023,+,-,-,Reinvestor
+APOLLOHOSP,Mar 2024,+,-,-,Reinvestor
+ASIANPAINT,Mar 2013,+,-,-,Reinvestor
+ASIANPAINT,Mar 2014,+,-,-,Reinvestor
+ASIANPAINT,Mar 2015,+,-,-,Reinvestor
+ASIANPAINT,Mar 2016,+,-,-,Reinvestor
+ASIANPAINT,Mar 2017,+,-,-,Reinvestor
+ASIANPAINT,Mar 2018,+,-,-,Reinvestor
+ASIANPAINT,Mar 2019,+,-,-,Reinvestor
+ASIANPAINT,Mar 2020,+,-,-,Reinvestor
+ASIANPAINT,Mar 2021,+,-,-,Reinvestor
+ASIANPAINT,Mar 2022,+,-,-,Reinvestor
+ASIANPAINT,Mar 2023,+,-,-,Reinvestor
+ASIANPAINT,Mar 2024,+,-,-,Reinvestor
+AGTL,Mar 2018,+,-,+,Growth Funded by Debt
+AGTL,Mar 2019,+,+,-,Liquidating Assets
+AGTL,Mar 2020,+,-,-,Reinvestor
+AGTL,Mar 2021,+,-,+,Growth Funded by Debt
+AGTL,Mar 2022,+,-,+,Growth Funded by Debt
+AGTL,Mar 2023,+,-,+,Growth Funded by Debt
+AGTL,Mar 2024,+,-,-,Reinvestor
+AXISBANK,Mar 2013,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2014,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2015,-,-,+,Mixed
+AXISBANK,Mar 2016,-,+,+,Distress Signal
+AXISBANK,Mar 2017,+,-,-,Reinvestor
+AXISBANK,Mar 2018,-,-,+,Mixed
+AXISBANK,Mar 2019,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2020,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2021,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2022,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2023,+,-,+,Growth Funded by Debt
+AXISBANK,Mar 2024,-,-,+,Mixed
+BAJAJ-AUTO,Mar 2013,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2014,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2015,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2016,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2017,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2018,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2019,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2020,+,+,-,Liquidating Assets
+BAJAJ-AUTO,Mar 2021,+,-,-,Reinvestor
+BAJAJ-AUTO,Mar 2022,+,+,-,Liquidating Assets
+BAJAJ-AUTO,Mar 2023,+,+,-,Liquidating Assets
+BAJAJ-AUTO,Mar 2024,+,-,-,Reinvestor
+BAJAJFINSV,Mar 2013,-,+,+,Distress Signal
+BAJAJFINSV,Mar 2014,-,+,+,Distress Signal
+BAJAJFINSV,Mar 2015,-,+,+,Distress Signal
+BAJAJFINSV,Mar 2016,-,-,+,Mixed
+BAJAJFINSV,Mar 2017,-,+,+,Distress Signal
+BAJAJFINSV,Mar 2018,-,-,+,Mixed
+BAJAJFINSV,Mar 2019,-,-,+,Mixed
+BAJAJFINSV,Mar 2020,-,-,+,Mixed
+BAJAJFINSV,Mar 2021,+,-,+,Growth Funded by Debt
+BAJAJFINSV,Mar 2022,-,+,+,Distress Signal
+BAJAJFINSV,Mar 2023,-,-,+,Mixed
+BAJAJFINSV,Mar 2024,-,-,+,Mixed
+BAJAJHLDNG,Mar 2013,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2014,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2015,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2016,+,+,-,Liquidating Assets
+BAJAJHLDNG,Mar 2017,-,-,-,Pre-Revenue
+BAJAJHLDNG,Mar 2018,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2019,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2020,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2021,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2022,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2023,+,-,-,Reinvestor
+BAJAJHLDNG,Mar 2024,+,-,-,Reinvestor
+BAJFINANCE,Mar 2015,-,-,+,Mixed
+BAJFINANCE,Mar 2016,-,-,+,Mixed
+BAJFINANCE,Mar 2017,-,-,+,Mixed
+BAJFINANCE,Mar 2018,-,+,+,Distress Signal
+BAJFINANCE,Mar 2019,-,-,+,Mixed
+BAJFINANCE,Mar 2020,-,-,+,Mixed
+BAJFINANCE,Mar 2021,-,-,+,Mixed
+BAJFINANCE,Mar 2022,-,+,+,Distress Signal
+BAJFINANCE,Mar 2023,-,-,+,Mixed
+BAJFINANCE,Mar 2024,-,-,+,Mixed
+BANKBARODA,Mar 2013,+,-,-,Reinvestor
+BANKBARODA,Mar 2014,+,-,+,Growth Funded by Debt
+BANKBARODA,Mar 2015,+,-,-,Reinvestor
+BANKBARODA,Mar 2016,-,-,-,Pre-Revenue
+BANKBARODA,Mar 2017,+,-,-,Reinvestor
+BANKBARODA,Mar 2018,-,-,+,Mixed
+BANKBARODA,Mar 2019,-,-,+,Mixed
+BANKBARODA,Mar 2020,+,-,+,Growth Funded by Debt
+BANKBARODA,Mar 2021,-,-,-,Pre-Revenue
+BANKBARODA,Mar 2022,+,-,-,Reinvestor
+BANKBARODA,Mar 2023,-,-,-,Pre-Revenue
+BANKBARODA,Mar 2024,-,-,+,Mixed
+BEL,Mar 2013,-,+,-,Mixed
+BEL,Mar 2014,-,+,-,Mixed
+BEL,Mar 2015,+,-,-,Reinvestor
+BEL,Mar 2016,+,-,-,Reinvestor
+BEL,Mar 2017,-,+,-,Mixed
+BEL,Mar 2018,-,-,-,Pre-Revenue
+BEL,Mar 2019,+,-,-,Reinvestor
+BEL,Mar 2020,+,-,-,Reinvestor
+BEL,Mar 2021,+,-,-,Reinvestor
+BEL,Mar 2022,+,-,-,Reinvestor
+BEL,Mar 2023,+,+,-,Liquidating Assets
+BEL,Mar 2024,+,-,-,Reinvestor
+BHARTIARTL,Mar 2013,+,-,-,Reinvestor
+BHARTIARTL,Mar 2014,+,-,+,Growth Funded by Debt
+BHARTIARTL,Mar 2015,+,-,-,Reinvestor
+BHARTIARTL,Mar 2016,+,-,-,Reinvestor
+BHARTIARTL,Mar 2017,+,-,-,Reinvestor
+BHARTIARTL,Mar 2018,+,-,+,Growth Funded by Debt
+BHARTIARTL,Mar 2019,+,-,+,Growth Funded by Debt
+BHARTIARTL,Mar 2020,+,-,+,Growth Funded by Debt
+BHARTIARTL,Mar 2021,+,-,-,Reinvestor
+BHARTIARTL,Mar 2022,+,-,-,Reinvestor
+BHARTIARTL,Mar 2023,+,-,-,Reinvestor
+BHARTIARTL,Mar 2024,+,-,-,Reinvestor
+BHEL,Mar 2013,+,-,+,Growth Funded by Debt
+BHEL,Mar 2014,+,-,+,Growth Funded by Debt
+BHEL,Mar 2015,+,+,-,Liquidating Assets
+BHEL,Mar 2016,+,+,-,Liquidating Assets
+BHEL,Mar 2017,+,-,-,Reinvestor
+BHEL,Mar 2018,+,+,-,Liquidating Assets
+BHEL,Mar 2019,-,+,-,Mixed
+BHEL,Mar 2020,-,+,+,Distress Signal
+BHEL,Mar 2021,+,-,-,Reinvestor
+BHEL,Mar 2022,+,-,-,Reinvestor
+BHEL,Mar 2023,-,+,+,Distress Signal
+BHEL,Mar 2024,-,+,+,Distress Signal
+BOSCHLTD,Dec 2012,+,-,-,Reinvestor
+BOSCHLTD,Dec 2013,+,-,-,Reinvestor
+BOSCHLTD,Mar 2015,+,-,-,Reinvestor
+BOSCHLTD,Mar 2016,+,-,-,Reinvestor
+BOSCHLTD,Mar 2017,+,+,-,Liquidating Assets
+BOSCHLTD,Mar 2018,+,-,-,Reinvestor
+BOSCHLTD,Mar 2019,+,+,-,Liquidating Assets
+BOSCHLTD,Mar 2020,+,-,-,Reinvestor
+BOSCHLTD,Mar 2021,+,-,-,Reinvestor
+BOSCHLTD,Mar 2022,+,-,-,Reinvestor
+BOSCHLTD,Mar 2023,+,+,-,Liquidating Assets
+BOSCHLTD,Mar 2024,+,+,-,Liquidating Assets
+BPCL,Mar 2013,+,-,-,Reinvestor
+BPCL,Mar 2014,+,-,-,Reinvestor
+BPCL,Mar 2015,+,-,-,Reinvestor
+BPCL,Mar 2016,+,-,-,Reinvestor
+BPCL,Mar 2017,+,-,+,Growth Funded by Debt
+BPCL,Mar 2018,+,-,-,Reinvestor
+BPCL,Mar 2019,+,-,+,Growth Funded by Debt
+BPCL,Mar 2020,+,-,+,Growth Funded by Debt
+BPCL,Mar 2021,+,-,-,Reinvestor
+BPCL,Mar 2022,+,-,-,Reinvestor
+BPCL,Mar 2023,+,-,-,Reinvestor
+BPCL,Mar 2024,+,-,-,Reinvestor
+BRITANNIA,Mar 2013,+,+,-,Liquidating Assets
+BRITANNIA,Mar 2014,+,-,-,Reinvestor
+BRITANNIA,Mar 2015,+,-,-,Reinvestor
+BRITANNIA,Mar 2016,+,-,-,Reinvestor
+BRITANNIA,Mar 2017,+,-,-,Reinvestor
+BRITANNIA,Mar 2018,+,-,-,Reinvestor
+BRITANNIA,Mar 2019,+,-,-,Reinvestor
+BRITANNIA,Mar 2020,+,-,+,Growth Funded by Debt
+BRITANNIA,Mar 2021,+,+,-,Liquidating Assets
+BRITANNIA,Mar 2022,+,+,-,Liquidating Assets
+BRITANNIA,Mar 2023,+,-,-,Reinvestor
+BRITANNIA,Mar 2024,+,+,-,Liquidating Assets
+CANBK,Mar 2013,+,-,-,Reinvestor
+CANBK,Mar 2014,+,-,-,Reinvestor
+CANBK,Mar 2015,+,-,-,Reinvestor
+CANBK,Mar 2016,+,-,-,Reinvestor
+CANBK,Mar 2017,+,-,+,Growth Funded by Debt
+CANBK,Mar 2018,-,-,+,Mixed
+CANBK,Mar 2019,+,-,-,Reinvestor
+CANBK,Mar 2020,-,-,+,Mixed
+CANBK,Mar 2021,+,-,+,Growth Funded by Debt
+CANBK,Mar 2022,+,-,+,Growth Funded by Debt
+CANBK,Mar 2023,-,-,+,Mixed
+CANBK,Mar 2024,+,-,-,Reinvestor
+CHOLAFIN,Mar 2013,-,+,+,Distress Signal
+CHOLAFIN,Mar 2014,-,-,+,Mixed
+CHOLAFIN,Mar 2015,-,-,+,Mixed
+CHOLAFIN,Mar 2016,-,-,+,Mixed
+CHOLAFIN,Mar 2017,-,-,+,Mixed
+CHOLAFIN,Mar 2018,-,-,+,Mixed
+CHOLAFIN,Mar 2019,-,-,+,Mixed
+CHOLAFIN,Mar 2020,-,-,+,Mixed
+CHOLAFIN,Mar 2021,-,-,+,Mixed
+CHOLAFIN,Mar 2022,-,+,+,Distress Signal
+CHOLAFIN,Mar 2023,-,-,+,Mixed
+CHOLAFIN,Mar 2024,-,-,+,Mixed
+CIPLA,Mar 2013,+,-,+,Growth Funded by Debt
+CIPLA,Mar 2014,+,-,-,Reinvestor
+CIPLA,Mar 2015,+,-,+,Growth Funded by Debt
+CIPLA,Mar 2016,+,-,+,Growth Funded by Debt
+CIPLA,Mar 2017,+,-,-,Reinvestor
+CIPLA,Mar 2018,+,-,-,Reinvestor
+CIPLA,Mar 2019,+,-,-,Reinvestor
+CIPLA,Mar 2020,+,+,-,Liquidating Assets
+CIPLA,Mar 2021,+,-,-,Reinvestor
+CIPLA,Mar 2022,+,-,-,Reinvestor
+CIPLA,Mar 2023,+,-,-,Reinvestor
+CIPLA,Mar 2024,+,-,-,Reinvestor
+COALINDIA,Mar 2013,+,-,-,Reinvestor
+COALINDIA,Mar 2014,+,+,-,Liquidating Assets
+COALINDIA,Mar 2015,+,+,-,Liquidating Assets
+COALINDIA,Mar 2016,+,+,-,Liquidating Assets
+COALINDIA,Mar 2017,+,+,-,Liquidating Assets
+COALINDIA,Mar 2018,+,-,-,Reinvestor
+COALINDIA,Mar 2019,+,-,-,Reinvestor
+COALINDIA,Mar 2020,+,+,-,Liquidating Assets
+COALINDIA,Mar 2021,+,+,-,Liquidating Assets
+COALINDIA,Mar 2022,+,-,-,Reinvestor
+COALINDIA,Mar 2023,+,-,-,Reinvestor
+COALINDIA,Mar 2024,+,-,-,Reinvestor
+DABUR,Mar 2013,+,-,-,Reinvestor
+DABUR,Mar 2014,+,-,-,Reinvestor
+DABUR,Mar 2015,+,-,-,Reinvestor
+DABUR,Mar 2016,+,-,-,Reinvestor
+DABUR,Mar 2017,+,-,-,Reinvestor
+DABUR,Mar 2018,+,-,-,Reinvestor
+DABUR,Mar 2019,+,+,-,Liquidating Assets
+DABUR,Mar 2020,+,-,-,Reinvestor
+DABUR,Mar 2021,+,-,-,Reinvestor
+DABUR,Mar 2022,+,-,-,Reinvestor
+DABUR,Mar 2023,+,-,-,Reinvestor
+DABUR,Mar 2024,+,-,-,Reinvestor
+DIVISLAB,Mar 2013,+,-,-,Reinvestor
+DIVISLAB,Mar 2014,+,-,-,Reinvestor
+DIVISLAB,Mar 2015,+,-,-,Reinvestor
+DIVISLAB,Mar 2016,+,-,-,Reinvestor
+DIVISLAB,Mar 2017,+,-,+,Growth Funded by Debt
+DIVISLAB,Mar 2018,+,-,-,Reinvestor
+DIVISLAB,Mar 2019,+,-,-,Reinvestor
+DIVISLAB,Mar 2020,+,-,-,Reinvestor
+DIVISLAB,Mar 2021,+,+,-,Liquidating Assets
+DIVISLAB,Mar 2022,+,-,-,Reinvestor
+DIVISLAB,Mar 2023,+,-,-,Reinvestor
+DIVISLAB,Mar 2024,+,-,-,Reinvestor
+DLF,Mar 2013,+,+,-,Liquidating Assets
+DLF,Mar 2014,+,+,-,Liquidating Assets
+DLF,Mar 2015,+,+,-,Liquidating Assets
+DLF,Mar 2016,+,-,-,Reinvestor
+DLF,Mar 2017,-,+,+,Distress Signal
+DLF,Mar 2018,+,-,-,Reinvestor
+DLF,Mar 2019,+,+,+,Cash Accumulator
+DLF,Mar 2020,+,+,-,Liquidating Assets
+DLF,Mar 2021,+,+,-,Liquidating Assets
+DLF,Mar 2022,+,+,-,Liquidating Assets
+DLF,Mar 2023,+,-,-,Reinvestor
+DLF,Mar 2024,+,-,+,Growth Funded by Debt
+DMART,Mar 2013,+,-,+,Growth Funded by Debt
+DMART,Mar 2014,+,-,+,Growth Funded by Debt
+DMART,Mar 2015,+,-,+,Growth Funded by Debt
+DMART,Mar 2016,+,-,+,Growth Funded by Debt
+DMART,Mar 2017,+,-,+,Growth Funded by Debt
+DMART,Mar 2018,+,+,-,Liquidating Assets
+DMART,Mar 2019,+,-,+,Growth Funded by Debt
+DMART,Mar 2020,+,-,+,Growth Funded by Debt
+DMART,Mar 2021,+,-,-,Reinvestor
+DMART,Mar 2022,+,-,-,Reinvestor
+DMART,Mar 2023,+,-,-,Reinvestor
+DMART,Mar 2024,+,-,-,Reinvestor
+DRREDDY,Mar 2013,+,-,-,Reinvestor
+DRREDDY,Mar 2014,+,-,-,Reinvestor
+DRREDDY,Mar 2015,+,-,-,Reinvestor
+DRREDDY,Mar 2016,+,-,-,Reinvestor
+DRREDDY,Mar 2017,+,-,-,Reinvestor
+DRREDDY,Mar 2018,+,-,-,Reinvestor
+DRREDDY,Mar 2019,+,-,-,Reinvestor
+DRREDDY,Mar 2020,+,-,-,Reinvestor
+DRREDDY,Mar 2021,+,-,-,Reinvestor
+DRREDDY,Mar 2022,+,-,-,Reinvestor
+DRREDDY,Mar 2023,+,-,-,Reinvestor
+DRREDDY,Mar 2024,+,-,-,Reinvestor
+EICHERMOT,Dec 2012,+,-,-,Reinvestor
+EICHERMOT,Dec 2013,+,-,-,Reinvestor
+EICHERMOT,Dec 2014,+,-,-,Reinvestor
+EICHERMOT,Mar 2016,+,-,-,Reinvestor
+EICHERMOT,Mar 2017,+,-,+,Growth Funded by Debt
+EICHERMOT,Mar 2018,+,-,-,Reinvestor
+EICHERMOT,Mar 2019,+,-,-,Reinvestor
+EICHERMOT,Mar 2020,+,-,-,Reinvestor
+EICHERMOT,Mar 2021,+,-,-,Reinvestor
+EICHERMOT,Mar 2022,+,-,-,Reinvestor
+EICHERMOT,Mar 2023,+,-,-,Reinvestor
+EICHERMOT,Mar 2024,+,-,-,Reinvestor
+GAIL,Mar 2013,+,-,+,Growth Funded by Debt
+GAIL,Mar 2014,+,-,-,Reinvestor
+GAIL,Mar 2015,+,-,-,Reinvestor
+GAIL,Mar 2016,+,-,-,Reinvestor
+GAIL,Mar 2017,+,-,-,Reinvestor
+GAIL,Mar 2018,+,-,-,Reinvestor
+GAIL,Mar 2019,+,-,-,Reinvestor
+GAIL,Mar 2020,+,-,+,Growth Funded by Debt
+GAIL,Mar 2021,+,-,-,Reinvestor
+GAIL,Mar 2022,+,-,-,Reinvestor
+GAIL,Mar 2023,+,-,+,Growth Funded by Debt
+GAIL,Mar 2024,+,-,-,Reinvestor
+GODREJCP,Mar 2013,+,-,+,Growth Funded by Debt
+GODREJCP,Mar 2014,+,-,-,Reinvestor
+GODREJCP,Mar 2015,+,-,-,Reinvestor
+GODREJCP,Mar 2016,+,-,-,Reinvestor
+GODREJCP,Mar 2017,+,-,+,Growth Funded by Debt
+GODREJCP,Mar 2018,+,-,-,Reinvestor
+GODREJCP,Mar 2019,+,+,-,Liquidating Assets
+GODREJCP,Mar 2020,+,-,-,Reinvestor
+GODREJCP,Mar 2021,+,-,-,Reinvestor
+GODREJCP,Mar 2022,+,-,-,Reinvestor
+GODREJCP,Mar 2023,+,-,-,Reinvestor
+GODREJCP,Mar 2024,+,-,+,Growth Funded by Debt
+GRASIM,Mar 2013,+,-,+,Growth Funded by Debt
+GRASIM,Mar 2014,+,-,-,Reinvestor
+GRASIM,Mar 2015,+,-,-,Reinvestor
+GRASIM,Mar 2016,+,-,-,Reinvestor
+GRASIM,Mar 2017,+,-,-,Reinvestor
+GRASIM,Mar 2018,-,+,+,Distress Signal
+GRASIM,Mar 2019,-,-,+,Mixed
+GRASIM,Mar 2020,+,-,-,Reinvestor
+GRASIM,Mar 2021,+,-,-,Reinvestor
+GRASIM,Mar 2022,+,-,-,Reinvestor
+GRASIM,Mar 2023,-,-,+,Mixed
+GRASIM,Mar 2024,-,-,+,Mixed
+HAL,Mar 2017,-,+,-,Mixed
+HAL,Mar 2018,-,+,-,Mixed
+HAL,Mar 2019,-,+,+,Distress Signal
+HAL,Mar 2020,+,-,+,Growth Funded by Debt
+HAL,Mar 2021,+,-,-,Reinvestor
+HAL,Mar 2022,+,-,-,Reinvestor
+HAL,Mar 2023,+,-,-,Reinvestor
+HAL,Mar 2024,+,-,-,Reinvestor
+HAVELLS,Mar 2013,+,-,-,Reinvestor
+HAVELLS,Mar 2014,+,-,-,Reinvestor
+HAVELLS,Mar 2015,+,-,-,Reinvestor
+HAVELLS,Mar 2016,+,-,-,Reinvestor
+HAVELLS,Mar 2017,+,-,-,Reinvestor
+HAVELLS,Mar 2018,+,-,-,Reinvestor
+HAVELLS,Mar 2019,+,+,-,Liquidating Assets
+HAVELLS,Mar 2020,+,-,-,Reinvestor
+HAVELLS,Mar 2021,+,-,+,Growth Funded by Debt
+HAVELLS,Mar 2022,+,-,-,Reinvestor
+HAVELLS,Mar 2023,+,+,-,Liquidating Assets
+HAVELLS,Mar 2024,+,-,-,Reinvestor
+HCLTECH,Jun 2013,+,-,-,Reinvestor
+HCLTECH,Jun 2014,+,-,-,Reinvestor
+HCLTECH,Jun 2015,+,-,-,Reinvestor
+HCLTECH,Mar 2016,+,-,-,Reinvestor
+HCLTECH,Mar 2017,+,-,-,Reinvestor
+HCLTECH,Mar 2018,+,-,-,Reinvestor
+HCLTECH,Mar 2019,+,-,-,Reinvestor
+HCLTECH,Mar 2020,+,-,-,Reinvestor
+HCLTECH,Mar 2021,+,-,-,Reinvestor
+HCLTECH,Mar 2022,+,+,-,Liquidating Assets
+HCLTECH,Mar 2023,+,-,-,Reinvestor
+HCLTECH,Mar 2024,+,-,-,Reinvestor
+HDFCBANK,Mar 2013,-,-,+,Mixed
+HDFCBANK,Mar 2014,+,-,+,Growth Funded by Debt
+HDFCBANK,Mar 2015,-,-,+,Mixed
+HDFCBANK,Mar 2016,-,-,+,Mixed
+HDFCBANK,Mar 2017,+,-,-,Reinvestor
+HDFCBANK,Mar 2018,+,-,+,Growth Funded by Debt
+HDFCBANK,Mar 2019,-,-,+,Mixed
+HDFCBANK,Mar 2020,-,-,+,Mixed
+HDFCBANK,Mar 2021,+,-,-,Reinvestor
+HDFCBANK,Mar 2022,-,-,+,Mixed
+HDFCBANK,Mar 2023,+,-,+,Growth Funded by Debt
+HDFCBANK,Mar 2024,+,+,-,Liquidating Assets
+HDFCLIFE,Mar 2013,-,-,-,Pre-Revenue
+HDFCLIFE,Mar 2014,-,-,-,Pre-Revenue
+HDFCLIFE,Mar 2015,+,-,-,Reinvestor
+HDFCLIFE,Mar 2016,+,-,-,Reinvestor
+HDFCLIFE,Mar 2017,+,-,-,Reinvestor
+HDFCLIFE,Mar 2018,+,-,-,Reinvestor
+HDFCLIFE,Mar 2019,+,-,-,Reinvestor
+HDFCLIFE,Mar 2020,+,-,+,Growth Funded by Debt
+HDFCLIFE,Mar 2021,+,-,+,Growth Funded by Debt
+HDFCLIFE,Mar 2022,+,-,-,Reinvestor
+HDFCLIFE,Mar 2023,+,-,+,Growth Funded by Debt
+HDFCLIFE,Mar 2024,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2014,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2015,+,+,-,Liquidating Assets
+HEROMOTOCO,Mar 2016,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2017,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2018,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2019,+,+,-,Liquidating Assets
+HEROMOTOCO,Mar 2020,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2021,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2022,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2023,+,-,-,Reinvestor
+HEROMOTOCO,Mar 2024,+,-,-,Reinvestor
+HINDALCO,Mar 2013,+,-,+,Growth Funded by Debt
+HINDALCO,Mar 2014,+,-,+,Growth Funded by Debt
+HINDALCO,Mar 2015,+,-,-,Reinvestor
+HINDALCO,Mar 2016,+,-,-,Reinvestor
+HINDALCO,Mar 2017,+,-,-,Reinvestor
+HINDALCO,Mar 2018,+,+,-,Liquidating Assets
+HINDALCO,Mar 2019,+,-,-,Reinvestor
+HINDALCO,Mar 2020,+,-,+,Growth Funded by Debt
+HINDALCO,Mar 2021,+,-,-,Reinvestor
+HINDALCO,Mar 2022,+,-,-,Reinvestor
+HINDALCO,Mar 2023,+,-,-,Reinvestor
+HINDALCO,Mar 2024,+,-,-,Reinvestor
+HINDUNILVR,Mar 2013,+,+,-,Liquidating Assets
+HINDUNILVR,Mar 2014,+,-,-,Reinvestor
+HINDUNILVR,Mar 2015,+,+,-,Liquidating Assets
+HINDUNILVR,Mar 2016,+,-,-,Reinvestor
+HINDUNILVR,Mar 2017,+,-,-,Reinvestor
+HINDUNILVR,Mar 2018,+,-,-,Reinvestor
+HINDUNILVR,Mar 2019,+,-,-,Reinvestor
+HINDUNILVR,Mar 2020,+,+,-,Liquidating Assets
+HINDUNILVR,Mar 2021,+,-,-,Reinvestor
+HINDUNILVR,Mar 2022,+,-,-,Reinvestor
+HINDUNILVR,Mar 2023,+,-,-,Reinvestor
+HINDUNILVR,Mar 2024,+,-,-,Reinvestor
+ICICIBANK,Mar 2013,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2014,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2015,-,-,+,Mixed
+ICICIBANK,Mar 2016,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2017,+,-,-,Reinvestor
+ICICIBANK,Mar 2018,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2019,+,-,-,Reinvestor
+ICICIBANK,Mar 2020,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2021,+,-,-,Reinvestor
+ICICIBANK,Mar 2022,+,-,+,Growth Funded by Debt
+ICICIBANK,Mar 2023,-,-,+,Mixed
+ICICIBANK,Mar 2024,+,-,+,Growth Funded by Debt
+ICICIGI,Mar 2013,+,-,+,Growth Funded by Debt
+ICICIGI,Mar 2014,+,-,+,Growth Funded by Debt
+ICICIGI,Mar 2015,-,+,-,Mixed
+ICICIGI,Mar 2016,+,-,-,Reinvestor
+ICICIGI,Mar 2017,+,-,+,Growth Funded by Debt
+ICICIGI,Mar 2018,+,-,-,Reinvestor
+ICICIGI,Mar 2019,+,-,-,Reinvestor
+ICICIGI,Mar 2020,+,-,-,Reinvestor
+ICICIGI,Mar 2021,+,-,-,Reinvestor
+ICICIGI,Mar 2022,+,+,-,Liquidating Assets
+ICICIGI,Mar 2023,+,-,-,Reinvestor
+ICICIGI,Mar 2024,+,-,-,Reinvestor
+ICICIPRULI,Mar 2013,-,+,-,Mixed
+ICICIPRULI,Mar 2014,-,+,-,Mixed
+ICICIPRULI,Mar 2015,+,-,-,Reinvestor
+ICICIPRULI,Mar 2016,+,+,-,Liquidating Assets
+ICICIPRULI,Mar 2017,+,-,-,Reinvestor
+ICICIPRULI,Mar 2018,+,-,-,Reinvestor
+ICICIPRULI,Mar 2019,+,-,-,Reinvestor
+ICICIPRULI,Mar 2020,+,-,-,Reinvestor
+ICICIPRULI,Mar 2021,+,-,+,Growth Funded by Debt
+ICICIPRULI,Mar 2022,+,-,-,Reinvestor
+ICICIPRULI,Mar 2023,+,-,-,Reinvestor
+ICICIPRULI,Mar 2024,-,+,-,Mixed
+INDIGO,Mar 2013,+,-,+,Growth Funded by Debt
+INDIGO,Mar 2014,+,-,+,Growth Funded by Debt
+INDIGO,Mar 2015,+,-,-,Reinvestor
+INDIGO,Mar 2016,+,-,-,Reinvestor
+INDIGO,Mar 2017,+,-,-,Reinvestor
+INDIGO,Mar 2018,+,-,+,Growth Funded by Debt
+INDIGO,Mar 2019,+,-,-,Reinvestor
+INDIGO,Mar 2020,+,-,-,Reinvestor
+INDIGO,Mar 2021,-,+,-,Mixed
+INDIGO,Mar 2022,+,+,-,Liquidating Assets
+INDIGO,Mar 2023,+,-,-,Reinvestor
+INDIGO,Mar 2024,+,-,-,Reinvestor
+INDUSINDBK,Mar 2013,-,-,+,Mixed
+INDUSINDBK,Mar 2014,-,-,+,Mixed
+INDUSINDBK,Mar 2015,-,-,+,Mixed
+INDUSINDBK,Mar 2016,-,-,+,Mixed
+INDUSINDBK,Mar 2017,+,-,-,Reinvestor
+INDUSINDBK,Mar 2018,-,-,+,Mixed
+INDUSINDBK,Mar 2019,-,-,+,Mixed
+INDUSINDBK,Mar 2020,-,+,+,Distress Signal
+INDUSINDBK,Mar 2021,+,-,-,Reinvestor
+INDUSINDBK,Mar 2022,+,-,-,Reinvestor
+INDUSINDBK,Mar 2023,-,-,+,Mixed
+INDUSINDBK,Mar 2024,-,-,-,Pre-Revenue
+INFY,Mar 2013,+,-,-,Reinvestor
+INFY,Mar 2014,+,-,-,Reinvestor
+INFY,Mar 2015,+,+,-,Liquidating Assets
+INFY,Mar 2016,+,-,-,Reinvestor
+INFY,Mar 2017,+,-,-,Reinvestor
+INFY,Mar 2018,+,+,-,Liquidating Assets
+INFY,Mar 2019,+,-,-,Reinvestor
+INFY,Mar 2020,+,-,-,Reinvestor
+INFY,Mar 2021,+,-,-,Reinvestor
+INFY,Mar 2022,+,-,-,Reinvestor
+INFY,Mar 2023,+,-,-,Reinvestor
+INFY,Mar 2024,+,-,-,Reinvestor
+IOC,Mar 2013,+,-,+,Growth Funded by Debt
+IOC,Mar 2014,+,-,-,Reinvestor
+IOC,Mar 2015,+,-,-,Reinvestor
+IOC,Mar 2016,+,-,-,Reinvestor
+IOC,Mar 2017,+,-,-,Reinvestor
+IOC,Mar 2018,+,-,-,Reinvestor
+IOC,Mar 2019,+,-,+,Growth Funded by Debt
+IOC,Mar 2020,+,-,+,Growth Funded by Debt
+IOC,Mar 2021,+,-,-,Reinvestor
+IOC,Mar 2022,+,-,-,Reinvestor
+IOC,Mar 2023,+,-,-,Reinvestor
+IOC,Mar 2024,+,-,-,Reinvestor
+IRCTC,Mar 2015,+,-,-,Reinvestor
+IRCTC,Mar 2016,+,+,-,Liquidating Assets
+IRCTC,Mar 2017,+,+,-,Liquidating Assets
+IRCTC,Mar 2018,+,+,-,Liquidating Assets
+IRCTC,Mar 2019,+,-,-,Reinvestor
+IRCTC,Mar 2020,+,+,-,Liquidating Assets
+IRCTC,Mar 2021,+,-,-,Reinvestor
+IRCTC,Mar 2022,+,-,-,Reinvestor
+IRCTC,Mar 2023,+,-,-,Reinvestor
+IRCTC,Mar 2024,+,-,-,Reinvestor
+IRFC,Mar 2016,-,+,+,Distress Signal
+IRFC,Mar 2017,-,+,+,Distress Signal
+IRFC,Mar 2018,-,+,+,Distress Signal
+IRFC,Mar 2019,-,+,+,Distress Signal
+IRFC,Mar 2020,-,+,+,Distress Signal
+IRFC,Mar 2021,-,+,+,Distress Signal
+IRFC,Mar 2022,-,-,+,Mixed
+IRFC,Mar 2023,-,+,+,Distress Signal
+IRFC,Mar 2024,+,-,-,Reinvestor
+ITC,Mar 2013,+,-,-,Reinvestor
+ITC,Mar 2014,+,-,-,Reinvestor
+ITC,Mar 2015,+,-,-,Reinvestor
+ITC,Mar 2016,+,-,-,Reinvestor
+ITC,Mar 2017,+,-,-,Reinvestor
+ITC,Mar 2018,+,-,-,Reinvestor
+ITC,Mar 2019,+,-,-,Reinvestor
+ITC,Mar 2020,+,-,-,Reinvestor
+ITC,Mar 2021,+,+,-,Liquidating Assets
+ITC,Mar 2022,+,-,-,Reinvestor
+ITC,Mar 2023,+,-,-,Reinvestor
+ITC,Mar 2024,+,+,-,Liquidating Assets
+JINDALSTEL,Mar 2013,+,-,+,Growth Funded by Debt
+JINDALSTEL,Mar 2014,+,-,+,Growth Funded by Debt
+JINDALSTEL,Mar 2015,+,-,+,Growth Funded by Debt
+JINDALSTEL,Mar 2016,+,-,-,Reinvestor
+JINDALSTEL,Mar 2017,+,-,-,Reinvestor
+JINDALSTEL,Mar 2018,+,-,-,Reinvestor
+JINDALSTEL,Mar 2019,+,-,-,Reinvestor
+JINDALSTEL,Mar 2020,+,-,-,Reinvestor
+JINDALSTEL,Mar 2021,+,-,-,Reinvestor
+JINDALSTEL,Mar 2022,+,-,-,Reinvestor
+JINDALSTEL,Mar 2023,+,-,-,Reinvestor
+JINDALSTEL,Mar 2024,+,-,+,Growth Funded by Debt
+JIOFIN,Mar 2023,+,-,-,Reinvestor
+JIOFIN,Mar 2024,-,+,-,Mixed
+JSWENERGY,Mar 2013,+,-,-,Reinvestor
+JSWENERGY,Mar 2014,+,-,-,Reinvestor
+JSWENERGY,Mar 2015,+,-,-,Reinvestor
+JSWENERGY,Mar 2016,+,-,-,Reinvestor
+JSWENERGY,Mar 2017,+,-,-,Reinvestor
+JSWENERGY,Mar 2018,+,-,-,Reinvestor
+JSWENERGY,Mar 2019,+,-,-,Reinvestor
+JSWENERGY,Mar 2020,+,+,-,Liquidating Assets
+JSWENERGY,Mar 2021,+,-,-,Reinvestor
+JSWENERGY,Mar 2022,+,-,-,Reinvestor
+JSWENERGY,Mar 2023,+,-,+,Growth Funded by Debt
+JSWENERGY,Mar 2024,+,-,+,Growth Funded by Debt
+JSWSTEEL,Mar 2013,+,-,-,Reinvestor
+JSWSTEEL,Mar 2014,+,-,+,Growth Funded by Debt
+JSWSTEEL,Mar 2015,+,-,-,Reinvestor
+JSWSTEEL,Mar 2016,+,-,-,Reinvestor
+JSWSTEEL,Mar 2017,+,-,-,Reinvestor
+JSWSTEEL,Mar 2018,+,-,-,Reinvestor
+JSWSTEEL,Mar 2019,+,-,+,Growth Funded by Debt
+JSWSTEEL,Mar 2020,+,-,+,Growth Funded by Debt
+JSWSTEEL,Mar 2021,+,-,-,Reinvestor
+JSWSTEEL,Mar 2022,+,-,-,Reinvestor
+JSWSTEEL,Mar 2023,+,-,-,Reinvestor
+JSWSTEEL,Mar 2024,+,-,-,Reinvestor
+KOTAKBANK,Mar 2013,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2014,+,-,-,Reinvestor
+KOTAKBANK,Mar 2015,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2016,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2017,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2018,-,-,+,Mixed
+KOTAKBANK,Mar 2019,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2020,+,-,-,Reinvestor
+KOTAKBANK,Mar 2021,+,-,-,Reinvestor
+KOTAKBANK,Mar 2022,+,-,+,Growth Funded by Debt
+KOTAKBANK,Mar 2023,-,-,+,Mixed
+KOTAKBANK,Mar 2024,+,-,+,Growth Funded by Debt
+LICI,Mar 2019,+,+,-,Liquidating Assets
+LICI,Mar 2020,+,-,-,Reinvestor
+LICI,Mar 2021,+,+,-,Liquidating Assets
+LICI,Mar 2022,-,+,+,Distress Signal
+LICI,Mar 2023,+,-,-,Reinvestor
+LICI,Mar 2024,+,-,-,Reinvestor
+LODHA,Mar 2016,+,-,+,Growth Funded by Debt
+LODHA,Mar 2017,+,-,-,Reinvestor
+LODHA,Mar 2018,+,-,+,Growth Funded by Debt
+LODHA,Mar 2019,-,-,+,Mixed
+LODHA,Mar 2020,+,+,-,Liquidating Assets
+LODHA,Mar 2021,+,+,-,Liquidating Assets
+LODHA,Mar 2022,+,+,-,Liquidating Assets
+LODHA,Mar 2023,+,+,-,Liquidating Assets
+LODHA,Mar 2024,+,-,+,Growth Funded by Debt
+LT,Mar 2013,-,-,+,Mixed
+LT,Mar 2014,-,-,+,Mixed
+LT,Mar 2015,-,-,+,Mixed
+LT,Mar 2016,-,-,+,Mixed
+LT,Mar 2017,+,-,+,Growth Funded by Debt
+LT,Mar 2018,-,+,+,Distress Signal
+LT,Mar 2019,-,-,+,Mixed
+LT,Mar 2020,+,-,+,Growth Funded by Debt
+LT,Mar 2021,+,-,-,Reinvestor
+LT,Mar 2022,+,-,-,Reinvestor
+LT,Mar 2023,+,-,-,Reinvestor
+LT,Mar 2024,+,+,-,Liquidating Assets
+LTIM,Mar 2013,+,-,-,Reinvestor
+LTIM,Mar 2014,+,+,-,Liquidating Assets
+LTIM,Mar 2015,+,-,-,Reinvestor
+LTIM,Mar 2016,+,-,-,Reinvestor
+LTIM,Mar 2017,+,-,-,Reinvestor
+LTIM,Mar 2018,+,-,-,Reinvestor
+LTIM,Mar 2019,+,-,-,Reinvestor
+LTIM,Mar 2020,+,-,-,Reinvestor
+LTIM,Mar 2021,+,-,-,Reinvestor
+LTIM,Mar 2022,+,-,-,Reinvestor
+LTIM,Mar 2023,+,-,-,Reinvestor
+LTIM,Mar 2024,+,-,-,Reinvestor
+M&M,Mar 2013,-,-,+,Mixed
+M&M,Mar 2014,-,-,+,Mixed
+M&M,Mar 2015,+,-,+,Growth Funded by Debt
+M&M,Mar 2016,+,-,+,Growth Funded by Debt
+M&M,Mar 2017,+,-,+,Growth Funded by Debt
+M&M,Mar 2018,+,-,+,Growth Funded by Debt
+M&M,Mar 2019,-,-,+,Mixed
+M&M,Mar 2020,-,-,+,Mixed
+M&M,Mar 2021,+,-,+,Growth Funded by Debt
+M&M,Mar 2022,+,-,-,Reinvestor
+M&M,Mar 2023,-,-,+,Mixed
+M&M,Mar 2024,-,-,+,Mixed
+MARUTI,Mar 2013,+,-,-,Reinvestor
+MARUTI,Mar 2014,+,-,-,Reinvestor
+MARUTI,Mar 2015,+,-,-,Reinvestor
+MARUTI,Mar 2016,+,-,-,Reinvestor
+MARUTI,Mar 2017,+,-,-,Reinvestor
+MARUTI,Mar 2018,+,-,-,Reinvestor
+MARUTI,Mar 2019,+,-,-,Reinvestor
+MARUTI,Mar 2020,+,-,-,Reinvestor
+MARUTI,Mar 2021,+,-,-,Reinvestor
+MARUTI,Mar 2022,+,-,-,Reinvestor
+MARUTI,Mar 2023,+,-,-,Reinvestor
+MARUTI,Mar 2024,+,-,-,Reinvestor
+MOTHERSON,Mar 2013,+,-,-,Reinvestor
+MOTHERSON,Mar 2014,+,-,-,Reinvestor
+MOTHERSON,Mar 2015,+,-,+,Growth Funded by Debt
+MOTHERSON,Mar 2016,+,-,-,Reinvestor
+MOTHERSON,Mar 2017,+,-,+,Growth Funded by Debt
+MOTHERSON,Mar 2018,+,-,-,Reinvestor
+MOTHERSON,Mar 2019,+,-,-,Reinvestor
+MOTHERSON,Mar 2020,+,-,-,Reinvestor
+MOTHERSON,Mar 2021,+,-,-,Reinvestor
+MOTHERSON,Mar 2022,+,-,-,Reinvestor
+MOTHERSON,Mar 2023,+,-,-,Reinvestor
+MOTHERSON,Mar 2024,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2013,+,-,-,Reinvestor
+NAUKRI,Mar 2014,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2015,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2016,+,-,-,Reinvestor
+NAUKRI,Mar 2017,+,-,-,Reinvestor
+NAUKRI,Mar 2018,+,-,-,Reinvestor
+NAUKRI,Mar 2019,+,-,-,Reinvestor
+NAUKRI,Mar 2020,+,+,-,Liquidating Assets
+NAUKRI,Mar 2021,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2022,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2023,+,-,+,Growth Funded by Debt
+NAUKRI,Mar 2024,+,-,+,Growth Funded by Debt
+NESTLEIND,Dec 2013,+,-,-,Reinvestor
+NESTLEIND,Dec 2014,+,-,-,Reinvestor
+NESTLEIND,Dec 2015,+,-,-,Reinvestor
+NESTLEIND,Dec 2016,+,-,-,Reinvestor
+NESTLEIND,Dec 2017,+,-,-,Reinvestor
+NESTLEIND,Dec 2018,+,-,-,Reinvestor
+NESTLEIND,Dec 2019,+,+,-,Liquidating Assets
+NESTLEIND,Dec 2020,+,-,-,Reinvestor
+NESTLEIND,Dec 2021,+,-,-,Reinvestor
+NESTLEIND,Dec 2022,+,-,-,Reinvestor
+NESTLEIND,Dec 2023,+,-,-,Reinvestor
+NESTLEIND,Mar 2024,+,-,-,Reinvestor
+NHPC,Mar 2013,+,-,-,Reinvestor
+NHPC,Mar 2014,+,-,-,Reinvestor
+NHPC,Mar 2015,+,-,-,Reinvestor
+NHPC,Mar 2016,+,-,-,Reinvestor
+NHPC,Mar 2017,+,-,-,Reinvestor
+NHPC,Mar 2018,+,-,-,Reinvestor
+NHPC,Mar 2019,+,-,-,Reinvestor
+NHPC,Mar 2020,+,-,+,Growth Funded by Debt
+NHPC,Mar 2021,+,-,-,Reinvestor
+NHPC,Mar 2022,+,-,-,Reinvestor
+NHPC,Mar 2023,+,-,-,Reinvestor
+NHPC,Mar 2024,+,-,-,Reinvestor
+NTPC,Mar 2013,+,-,+,Growth Funded by Debt
+NTPC,Mar 2014,+,-,-,Reinvestor
+NTPC,Mar 2015,+,-,-,Reinvestor
+NTPC,Mar 2016,+,-,-,Reinvestor
+NTPC,Mar 2017,+,-,+,Growth Funded by Debt
+NTPC,Mar 2018,+,-,+,Growth Funded by Debt
+NTPC,Mar 2019,+,-,+,Growth Funded by Debt
+NTPC,Mar 2020,+,-,+,Growth Funded by Debt
+NTPC,Mar 2021,+,-,-,Reinvestor
+NTPC,Mar 2022,+,-,-,Reinvestor
+NTPC,Mar 2023,+,-,-,Reinvestor
+NTPC,Mar 2024,+,-,-,Reinvestor
+ONGC,Mar 2013,+,-,-,Reinvestor
+ONGC,Mar 2014,+,-,+,Growth Funded by Debt
+ONGC,Mar 2015,+,-,-,Reinvestor
+ONGC,Mar 2016,+,-,-,Reinvestor
+ONGC,Mar 2017,+,-,-,Reinvestor
+ONGC,Mar 2018,+,-,+,Growth Funded by Debt
+ONGC,Mar 2019,+,-,-,Reinvestor
+ONGC,Mar 2020,+,-,-,Reinvestor
+ONGC,Mar 2021,+,-,-,Reinvestor
+ONGC,Mar 2022,+,-,-,Reinvestor
+ONGC,Mar 2023,+,-,-,Reinvestor
+ONGC,Mar 2024,+,-,-,Reinvestor
+PFC,Mar 2013,-,+,+,Distress Signal
+PFC,Mar 2014,-,+,+,Distress Signal
+PFC,Mar 2015,-,-,+,Mixed
+PFC,Mar 2016,-,-,+,Mixed
+PFC,Mar 2017,+,-,+,Growth Funded by Debt
+PFC,Mar 2018,-,+,+,Distress Signal
+PFC,Mar 2019,-,-,+,Mixed
+PFC,Mar 2020,-,-,+,Mixed
+PFC,Mar 2021,-,+,+,Distress Signal
+PFC,Mar 2022,+,-,-,Reinvestor
+PFC,Mar 2023,-,-,+,Mixed
+PFC,Mar 2024,-,-,+,Mixed
+PIDILITIND,Mar 2013,+,-,-,Reinvestor
+PIDILITIND,Mar 2014,+,-,-,Reinvestor
+PIDILITIND,Mar 2015,+,-,-,Reinvestor
+PIDILITIND,Mar 2016,+,-,-,Reinvestor
+PIDILITIND,Mar 2017,+,-,+,Growth Funded by Debt
+PIDILITIND,Mar 2018,+,+,-,Liquidating Assets
+PIDILITIND,Mar 2019,+,-,-,Reinvestor
+PIDILITIND,Mar 2020,+,+,-,Liquidating Assets
+PIDILITIND,Mar 2021,+,-,-,Reinvestor
+PIDILITIND,Mar 2022,+,-,-,Reinvestor
+PIDILITIND,Mar 2023,+,-,-,Reinvestor
+PIDILITIND,Mar 2024,+,-,-,Reinvestor
+PNB,Mar 2013,-,-,-,Pre-Revenue
+PNB,Mar 2014,+,-,+,Growth Funded by Debt
+PNB,Mar 2015,+,-,+,Growth Funded by Debt
+PNB,Mar 2016,+,-,+,Growth Funded by Debt
+PNB,Mar 2017,+,+,-,Liquidating Assets
+PNB,Mar 2018,-,+,+,Distress Signal
+PNB,Mar 2019,-,-,+,Mixed
+PNB,Mar 2020,-,-,+,Mixed
+PNB,Mar 2021,+,-,+,Growth Funded by Debt
+PNB,Mar 2022,+,-,+,Growth Funded by Debt
+PNB,Mar 2023,+,-,+,Growth Funded by Debt
+PNB,Mar 2024,-,-,+,Mixed
+POWERGRID,Mar 2013,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2014,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2015,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2016,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2017,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2018,+,-,+,Growth Funded by Debt
+POWERGRID,Mar 2019,+,-,-,Reinvestor
+POWERGRID,Mar 2020,+,-,-,Reinvestor
+POWERGRID,Mar 2021,+,-,-,Reinvestor
+POWERGRID,Mar 2022,+,+,-,Liquidating Assets
+POWERGRID,Mar 2023,+,-,-,Reinvestor
+POWERGRID,Mar 2024,+,-,-,Reinvestor
+RECLTD,Mar 2013,-,+,+,Distress Signal
+RECLTD,Mar 2014,-,+,+,Distress Signal
+RECLTD,Mar 2015,-,+,+,Distress Signal
+RECLTD,Mar 2016,-,-,+,Mixed
+RECLTD,Mar 2017,+,-,-,Reinvestor
+RECLTD,Mar 2018,-,+,+,Distress Signal
+RECLTD,Mar 2019,-,+,+,Distress Signal
+RECLTD,Mar 2020,-,+,+,Distress Signal
+RECLTD,Mar 2021,-,+,+,Distress Signal
+RECLTD,Mar 2022,-,-,+,Mixed
+RECLTD,Mar 2023,-,-,+,Mixed
+RECLTD,Mar 2024,-,-,+,Mixed
+RELIANCE,Mar 2013,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2014,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2015,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2016,+,-,-,Reinvestor
+RELIANCE,Mar 2017,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2018,+,-,-,Reinvestor
+RELIANCE,Mar 2019,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2020,+,-,-,Reinvestor
+RELIANCE,Mar 2021,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2022,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2023,+,-,+,Growth Funded by Debt
+RELIANCE,Mar 2024,+,-,-,Reinvestor
+SBILIFE,Mar 2013,+,-,-,Reinvestor
+SBILIFE,Mar 2014,+,-,-,Reinvestor
+SBILIFE,Mar 2015,+,-,-,Reinvestor
+SBILIFE,Mar 2016,+,-,-,Reinvestor
+SBILIFE,Mar 2017,+,-,-,Reinvestor
+SBILIFE,Mar 2018,+,-,-,Reinvestor
+SBILIFE,Mar 2019,+,-,-,Reinvestor
+SBILIFE,Mar 2020,+,-,-,Reinvestor
+SBILIFE,Mar 2021,+,-,+,Growth Funded by Debt
+SBILIFE,Mar 2022,+,-,-,Reinvestor
+SBILIFE,Mar 2023,+,-,-,Reinvestor
+SBILIFE,Mar 2024,+,-,-,Reinvestor
+SBIN,Mar 2013,+,-,-,Reinvestor
+SBIN,Mar 2014,+,-,+,Growth Funded by Debt
+SBIN,Mar 2015,+,-,-,Reinvestor
+SBIN,Mar 2016,+,-,+,Growth Funded by Debt
+SBIN,Mar 2017,+,-,-,Reinvestor
+SBIN,Mar 2018,-,+,+,Distress Signal
+SBIN,Mar 2019,+,+,+,Cash Accumulator
+SBIN,Mar 2020,+,-,+,Growth Funded by Debt
+SBIN,Mar 2021,+,-,+,Growth Funded by Debt
+SBIN,Mar 2022,+,-,-,Reinvestor
+SBIN,Mar 2023,-,-,+,Mixed
+SBIN,Mar 2024,+,-,-,Reinvestor
+SHREECEM,Jun 2013,+,-,-,Reinvestor
+SHREECEM,Jun 2014,+,-,-,Reinvestor
+SHREECEM,Jun 2015,+,-,-,Reinvestor
+SHREECEM,Mar 2016,+,-,-,Reinvestor
+SHREECEM,Mar 2017,+,-,-,Reinvestor
+SHREECEM,Mar 2018,+,-,+,Growth Funded by Debt
+SHREECEM,Mar 2019,+,-,-,Reinvestor
+SHREECEM,Mar 2020,+,-,+,Growth Funded by Debt
+SHREECEM,Mar 2021,+,-,-,Reinvestor
+SHREECEM,Mar 2022,+,-,-,Reinvestor
+SHREECEM,Mar 2023,+,-,-,Reinvestor
+SHREECEM,Mar 2024,+,-,-,Reinvestor
+SHRIRAMFIN,Mar 2013,-,-,+,Mixed
+SHRIRAMFIN,Mar 2014,-,-,+,Mixed
+SHRIRAMFIN,Mar 2015,-,-,+,Mixed
+SHRIRAMFIN,Mar 2016,-,-,+,Mixed
+SHRIRAMFIN,Mar 2017,-,-,+,Mixed
+SHRIRAMFIN,Mar 2018,-,+,+,Distress Signal
+SHRIRAMFIN,Mar 2019,-,-,+,Mixed
+SHRIRAMFIN,Mar 2020,-,-,+,Mixed
+SHRIRAMFIN,Mar 2021,-,-,+,Mixed
+SHRIRAMFIN,Mar 2022,-,-,+,Mixed
+SHRIRAMFIN,Mar 2023,-,+,+,Distress Signal
+SHRIRAMFIN,Mar 2024,-,-,+,Mixed
+SIEMENS,Sep 2011,+,+,-,Liquidating Assets
+SIEMENS,Sep 2014,+,+,-,Liquidating Assets
+SIEMENS,Sep 2015,+,+,-,Liquidating Assets
+SIEMENS,Sep 2016,+,+,-,Liquidating Assets
+SIEMENS,Sep 2017,+,+,-,Liquidating Assets
+SIEMENS,Sep 2018,+,-,-,Reinvestor
+SIEMENS,Sep 2019,+,-,-,Reinvestor
+SIEMENS,Sep 2020,+,+,-,Liquidating Assets
+SIEMENS,Sep 2021,+,-,-,Reinvestor
+SIEMENS,Sep 2022,+,-,-,Reinvestor
+SIEMENS,Sep 2023,+,-,-,Reinvestor
+SIEMENS,Sep 2024,+,-,-,Reinvestor
+SUNPHARMA,Mar 2013,+,-,-,Reinvestor
+SUNPHARMA,Mar 2014,+,-,+,Growth Funded by Debt
+SUNPHARMA,Mar 2015,+,-,-,Reinvestor
+SUNPHARMA,Mar 2016,+,-,-,Reinvestor
+SUNPHARMA,Mar 2017,+,-,-,Reinvestor
+SUNPHARMA,Mar 2018,+,-,-,Reinvestor
+SUNPHARMA,Mar 2019,+,-,-,Reinvestor
+SUNPHARMA,Mar 2020,+,-,-,Reinvestor
+SUNPHARMA,Mar 2021,+,+,-,Liquidating Assets
+SUNPHARMA,Mar 2022,+,-,-,Reinvestor
+SUNPHARMA,Mar 2023,+,-,+,Growth Funded by Debt
+SUNPHARMA,Mar 2024,+,-,-,Reinvestor
+TATACONSUM,Mar 2013,+,+,+,Cash Accumulator
+TATACONSUM,Mar 2014,+,-,-,Reinvestor
+TATACONSUM,Mar 2015,+,-,-,Reinvestor
+TATACONSUM,Mar 2016,+,+,-,Liquidating Assets
+TATACONSUM,Mar 2017,+,+,-,Liquidating Assets
+TATACONSUM,Mar 2018,+,-,-,Reinvestor
+TATACONSUM,Mar 2019,+,+,-,Liquidating Assets
+TATACONSUM,Mar 2020,+,-,-,Reinvestor
+TATACONSUM,Mar 2021,+,-,-,Reinvestor
+TATACONSUM,Mar 2022,+,-,-,Reinvestor
+TATACONSUM,Mar 2023,+,-,-,Reinvestor
+TATACONSUM,Mar 2024,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2013,+,-,-,Reinvestor
+TATAMOTORS,Mar 2014,+,-,-,Reinvestor
+TATAMOTORS,Mar 2015,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2016,+,-,-,Reinvestor
+TATAMOTORS,Mar 2017,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2018,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2019,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2020,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2021,+,-,+,Growth Funded by Debt
+TATAMOTORS,Mar 2022,+,-,-,Reinvestor
+TATAMOTORS,Mar 2023,+,-,-,Reinvestor
+TATAMOTORS,Mar 2024,+,-,-,Reinvestor
+TATAPOWER,Mar 2013,+,-,-,Reinvestor
+TATAPOWER,Mar 2014,+,-,-,Reinvestor
+TATAPOWER,Mar 2015,+,-,-,Reinvestor
+TATAPOWER,Mar 2016,+,-,-,Reinvestor
+TATAPOWER,Mar 2017,+,-,+,Growth Funded by Debt
+TATAPOWER,Mar 2018,+,-,-,Reinvestor
+TATAPOWER,Mar 2019,+,-,-,Reinvestor
+TATAPOWER,Mar 2020,+,-,-,Reinvestor
+TATAPOWER,Mar 2021,+,+,-,Liquidating Assets
+TATAPOWER,Mar 2022,+,-,-,Reinvestor
+TATAPOWER,Mar 2023,+,-,+,Growth Funded by Debt
+TATAPOWER,Mar 2024,+,-,-,Reinvestor
+TATASTEEL,Mar 2013,+,-,-,Reinvestor
+TATASTEEL,Mar 2014,+,-,+,Growth Funded by Debt
+TATASTEEL,Mar 2015,+,-,-,Reinvestor
+TATASTEEL,Mar 2016,+,-,-,Reinvestor
+TATASTEEL,Mar 2017,+,-,-,Reinvestor
+TATASTEEL,Mar 2018,+,-,+,Growth Funded by Debt
+TATASTEEL,Mar 2019,+,-,-,Reinvestor
+TATASTEEL,Mar 2020,+,-,-,Reinvestor
+TATASTEEL,Mar 2021,+,-,-,Reinvestor
+TATASTEEL,Mar 2022,+,-,-,Reinvestor
+TATASTEEL,Mar 2023,+,-,-,Reinvestor
+TATASTEEL,Mar 2024,+,-,-,Reinvestor
+TCS,Mar 2013,+,-,-,Reinvestor
+TCS,Mar 2014,+,-,-,Reinvestor
+TCS,Mar 2015,+,-,-,Reinvestor
+TCS,Mar 2016,+,-,-,Reinvestor
+TCS,Mar 2017,+,-,-,Reinvestor
+TCS,Mar 2018,+,+,-,Liquidating Assets
+TCS,Mar 2019,+,+,-,Liquidating Assets
+TCS,Mar 2020,+,+,-,Liquidating Assets
+TCS,Mar 2021,+,-,-,Reinvestor
+TCS,Mar 2022,+,-,-,Reinvestor
+TCS,Mar 2023,+,+,-,Liquidating Assets
+TCS,Mar 2024,+,+,-,Liquidating Assets
+TECHM,Mar 2013,+,-,+,Growth Funded by Debt
+TECHM,Mar 2014,+,+,-,Liquidating Assets
+TECHM,Mar 2015,+,-,-,Reinvestor
+TECHM,Mar 2016,+,-,-,Reinvestor
+TECHM,Mar 2017,+,-,-,Reinvestor
+TECHM,Mar 2018,+,-,-,Reinvestor
+TECHM,Mar 2019,+,-,-,Reinvestor
+TECHM,Mar 2020,+,+,-,Liquidating Assets
+TECHM,Mar 2021,+,-,-,Reinvestor
+TECHM,Mar 2022,+,+,-,Liquidating Assets
+TECHM,Mar 2023,+,-,-,Reinvestor
+TECHM,Mar 2024,+,-,-,Reinvestor
+TITAN,Mar 2013,+,-,-,Reinvestor
+TITAN,Mar 2014,-,-,+,Mixed
+TITAN,Mar 2015,+,-,-,Reinvestor
+TITAN,Mar 2016,+,-,-,Reinvestor
+TITAN,Mar 2017,+,-,-,Reinvestor
+TITAN,Mar 2018,-,+,-,Mixed
+TITAN,Mar 2019,+,-,-,Reinvestor
+TITAN,Mar 2020,-,+,-,Mixed
+TITAN,Mar 2021,+,-,-,Reinvestor
+TITAN,Mar 2022,-,+,-,Mixed
+TITAN,Mar 2023,+,-,+,Growth Funded by Debt
+TITAN,Mar 2024,+,-,-,Reinvestor
+TORNTPHARM,Mar 2013,+,-,+,Growth Funded by Debt
+TORNTPHARM,Mar 2014,+,-,+,Growth Funded by Debt
+TORNTPHARM,Mar 2015,+,-,+,Growth Funded by Debt
+TORNTPHARM,Mar 2016,+,-,-,Reinvestor
+TORNTPHARM,Mar 2017,+,-,-,Reinvestor
+TORNTPHARM,Mar 2018,+,-,+,Growth Funded by Debt
+TORNTPHARM,Mar 2019,+,-,-,Reinvestor
+TORNTPHARM,Mar 2020,+,+,-,Liquidating Assets
+TORNTPHARM,Mar 2021,+,-,-,Reinvestor
+TORNTPHARM,Mar 2022,+,-,-,Reinvestor
+TORNTPHARM,Mar 2023,+,-,+,Growth Funded by Debt
+TORNTPHARM,Mar 2024,+,-,-,Reinvestor
+TRENT,Mar 2013,+,-,+,Growth Funded by Debt
+TRENT,Mar 2014,-,-,-,Pre-Revenue
+TRENT,Mar 2015,-,-,+,Mixed
+TRENT,Mar 2016,+,-,-,Reinvestor
+TRENT,Mar 2017,+,-,-,Reinvestor
+TRENT,Mar 2018,+,-,-,Reinvestor
+TRENT,Mar 2019,+,-,+,Growth Funded by Debt
+TRENT,Mar 2020,+,-,+,Growth Funded by Debt
+TRENT,Mar 2021,+,+,-,Liquidating Assets
+TRENT,Mar 2022,+,+,-,Liquidating Assets
+TRENT,Mar 2023,+,-,-,Reinvestor
+TRENT,Mar 2024,+,-,-,Reinvestor
+TVSMOTOR,Mar 2013,+,-,-,Reinvestor
+TVSMOTOR,Mar 2014,+,-,-,Reinvestor
+TVSMOTOR,Mar 2015,+,-,+,Growth Funded by Debt
+TVSMOTOR,Mar 2016,+,-,-,Reinvestor
+TVSMOTOR,Mar 2017,+,-,-,Reinvestor
+TVSMOTOR,Mar 2018,+,-,+,Growth Funded by Debt
+TVSMOTOR,Mar 2019,-,-,+,Mixed
+TVSMOTOR,Mar 2020,+,-,+,Growth Funded by Debt
+TVSMOTOR,Mar 2021,+,-,+,Growth Funded by Debt
+TVSMOTOR,Mar 2022,-,-,+,Mixed
+TVSMOTOR,Mar 2023,-,-,+,Mixed
+TVSMOTOR,Mar 2024,-,-,+,Mixed
+ULTRACEMCO,Mar 2013,+,-,+,Growth Funded by Debt
+ULTRACEMCO,Mar 2014,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2015,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2016,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2017,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2018,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2019,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2020,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2021,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2022,+,+,-,Liquidating Assets
+ULTRACEMCO,Mar 2023,+,-,-,Reinvestor
+ULTRACEMCO,Mar 2024,+,-,-,Reinvestor
+UNIONBANK,Mar 2013,-,-,+,Mixed
+UNIONBANK,Mar 2014,+,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2015,-,-,+,Mixed
+UNIONBANK,Mar 2016,+,-,-,Reinvestor
+UNIONBANK,Mar 2017,-,-,+,Mixed
+UNIONBANK,Mar 2018,+,-,+,Growth Funded by Debt
+UNIONBANK,Mar 2019,-,-,+,Mixed
+UNIONBANK,Mar 2020,-,-,+,Mixed
+UNIONBANK,Mar 2021,+,-,-,Reinvestor
+UNIONBANK,Mar 2022,+,-,-,Reinvestor
+UNIONBANK,Mar 2023,+,-,-,Reinvestor
+UNIONBANK,Mar 2024,+,-,-,Reinvestor
+UNITDSPR,Mar 2013,+,-,-,Reinvestor
+UNITDSPR,Mar 2014,-,-,+,Mixed
+UNITDSPR,Mar 2015,-,+,-,Mixed
+UNITDSPR,Mar 2016,+,+,-,Liquidating Assets
+UNITDSPR,Mar 2017,+,-,-,Reinvestor
+UNITDSPR,Mar 2018,+,+,-,Liquidating Assets
+UNITDSPR,Mar 2019,+,-,-,Reinvestor
+UNITDSPR,Mar 2020,+,-,-,Reinvestor
+UNITDSPR,Mar 2021,+,-,-,Reinvestor
+UNITDSPR,Mar 2022,+,-,-,Reinvestor
+UNITDSPR,Mar 2023,+,-,-,Reinvestor
+UNITDSPR,Mar 2024,+,+,-,Liquidating Assets
+VBL,Dec 2012,+,-,+,Growth Funded by Debt
+VBL,Dec 2013,+,-,+,Growth Funded by Debt
+VBL,Dec 2014,+,-,+,Growth Funded by Debt
+VBL,Dec 2015,+,-,-,Reinvestor
+VBL,Dec 2016,+,-,+,Growth Funded by Debt
+VBL,Dec 2017,+,-,+,Growth Funded by Debt
+VBL,Dec 2018,+,-,-,Reinvestor
+VBL,Dec 2019,+,-,+,Growth Funded by Debt
+VBL,Dec 2020,+,-,-,Reinvestor
+VBL,Dec 2021,+,-,-,Reinvestor
+VBL,Dec 2022,+,-,-,Reinvestor
+VBL,Dec 2023,+,-,+,Growth Funded by Debt
+VEDL,Mar 2013,+,-,+,Growth Funded by Debt
+VEDL,Mar 2014,+,-,-,Reinvestor
+VEDL,Mar 2015,+,-,-,Reinvestor
+VEDL,Mar 2016,+,-,-,Reinvestor
+VEDL,Mar 2017,+,+,-,Liquidating Assets
+VEDL,Mar 2018,+,+,-,Liquidating Assets
+VEDL,Mar 2019,+,-,-,Reinvestor
+VEDL,Mar 2020,+,-,-,Reinvestor
+VEDL,Mar 2021,+,-,-,Reinvestor
+VEDL,Mar 2022,+,-,-,Reinvestor
+VEDL,Mar 2023,+,-,-,Reinvestor
+VEDL,Mar 2024,+,-,-,Reinvestor
+WIPRO,Mar 2013,+,-,-,Reinvestor
+WIPRO,Mar 2014,+,-,-,Reinvestor
+WIPRO,Mar 2015,+,-,-,Reinvestor
+WIPRO,Mar 2016,+,-,-,Reinvestor
+WIPRO,Mar 2017,+,-,-,Reinvestor
+WIPRO,Mar 2018,+,+,-,Liquidating Assets
+WIPRO,Mar 2019,+,+,-,Liquidating Assets
+WIPRO,Mar 2020,+,+,-,Liquidating Assets
+WIPRO,Mar 2021,+,+,-,Liquidating Assets
+WIPRO,Mar 2022,+,-,+,Growth Funded by Debt
+WIPRO,Mar 2023,+,-,-,Reinvestor
+WIPRO,Mar 2024,+,+,-,Liquidating Assets
+ZOMATO,Mar 2020,-,+,+,Distress Signal
+ZOMATO,Mar 2021,-,-,+,Mixed
+ZOMATO,Mar 2022,-,-,+,Mixed
+ZOMATO,Mar 2023,-,+,-,Mixed
+ZOMATO,Mar 2024,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2013,+,-,+,Growth Funded by Debt
+ZYDUSLIFE,Mar 2014,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2015,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2016,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2017,+,-,+,Growth Funded by Debt
+ZYDUSLIFE,Mar 2018,+,-,+,Growth Funded by Debt
+ZYDUSLIFE,Mar 2019,+,-,+,Growth Funded by Debt
+ZYDUSLIFE,Mar 2020,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2021,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2022,+,-,-,Reinvestor
+ZYDUSLIFE,Mar 2023,+,+,-,Liquidating Assets
+ZYDUSLIFE,Mar 2024,+,-,-,Reinvestor
