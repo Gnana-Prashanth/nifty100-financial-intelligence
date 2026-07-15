@@ -364,6 +364,10 @@ print(df[
     ]
 ].head(10))
 
+df = df.drop(
+    columns=["id", "id_x", "id_y"],
+    errors="ignore"
+)
 
 conn = sqlite3.connect("nifty100.db")
 
