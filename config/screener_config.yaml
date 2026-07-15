@@ -1,0 +1,33 @@
+filters:
+
+  roe_min: 15
+
+  de_max: 1
+
+  opm_min: 15
+
+  fcf_min: 0
+
+  revenue_cagr_min: 10
+
+  pat_cagr_min: 10
+
+  icr_min: 2
+
+  asset_turnover_min: 0.5
+
+  sales_min: 100
+
+  pe_max: 25
+
+  pb_max: 5
+
+  dividend_yield_min: 1
+
+  market_cap_min: 5000
+
+sorting:
+
+  by: composite_quality_score
+
+  ascending: false
