@@ -5,6 +5,7 @@ from ratios import (
     net_profit_margin,
     operating_profit_margin,
     return_on_equity,
+    return_on_capital_employed,
     debt_to_equity,
     interest_coverage_ratio,
     asset_turnover
@@ -96,6 +97,52 @@ df["return_on_equity_pct"] = df.apply(
     ),
     axis=1
 )
+
+#------------------ROCE13-----------------------
+df["return_on_capital_employed_pct"] = df.apply(
+    lambda row: return_on_capital_employed(
+        row["operating_profit"],
+        row["equity_capital"],
+        row["reserves"],
+        row["borrowings"]
+    ),
+    axis=1
+)
+
+print(
+    df[
+        [
+            "company_id",
+            "year",
+            "return_on_capital_employed_pct"
+        ]
+    ].head(10)
+)
+
+conn = sqlite3.connect("nifty100.db")
+
+df.to_sql(
+    "financial_ratios",
+    conn,
+    if_exists="replace",
+    index=False
+)
+
+conn.close()
+
+print("financial_ratios updated successfully!")
+
+conn = sqlite3.connect("nifty100.db")
+
+financial_ratios = pd.read_sql(
+    "SELECT * FROM financial_ratios",
+    conn
+)
+
+conn.close()
+
+print(financial_ratios.columns.tolist())
+#---------------ROCE13--------------------------
 
 df["debt_to_equity"] = df.apply(
     lambda row: debt_to_equity(
