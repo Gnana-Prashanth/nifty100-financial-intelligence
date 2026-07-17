@@ -68,3 +68,17 @@ def eps_cagr(start_eps, end_eps, years, available_years):
         years,
         available_years
     )
+
+
+
+def fcf_cagr(start_fcf, end_fcf, years, available_years):
+    """
+    Calculate Free Cash Flow CAGR
+    """
+
+    return calculate_cagr(
+        start_fcf,
+        end_fcf,
+        years,
+        available_years
+    )

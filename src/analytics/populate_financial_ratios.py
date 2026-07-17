@@ -20,7 +20,8 @@ from cashflow import (
 from cagr import (
     revenue_cagr,
     pat_cagr,
-    eps_cagr
+    eps_cagr,
+    fcf_cagr
 )
 
 conn = sqlite3.connect("nifty100.db")
@@ -326,6 +327,50 @@ for company, group in df.groupby("company_id"):
 
 
 
+df["fcf_cagr_5yr"] = None
+df["fcf_cagr_5yr_flag"] = None
+
+for company, group in df.groupby("company_id"):
+    group = group.reset_index()
+
+    for i in range(len(group)):
+
+        if i < 5:
+            continue
+
+        start_fcf = group.loc[i - 5, "free_cash_flow_cr"]
+        end_fcf = group.loc[i, "free_cash_flow_cr"]
+
+        cagr, flag = fcf_cagr(
+            start_fcf,
+            end_fcf,
+            5,
+            5
+        )
+
+        original_index = group.loc[i, "index"]
+
+        df.loc[original_index, "fcf_cagr_5yr"] = cagr
+        df.loc[original_index, "fcf_cagr_5yr_flag"] = flag
+
+
+
+# ---------------------CFO / PAT Ratio------------------------------(Modified - Day17)
+
+from quality_metrics import cfo_pat_ratio
+
+df["cfo_pat_ratio"] = df.apply(
+    lambda row: cfo_pat_ratio(
+        row["operating_activity"],
+        row["net_profit"]
+    ),
+    axis=1
+)
+
+#----------------------------------------------------------------------------------------
+
+
+
 def composite_quality_score(row):
     score = 0
 
@@ -368,6 +413,8 @@ df = df.drop(
     columns=["id", "id_x", "id_y"],
     errors="ignore"
 )
+
+
 
 conn = sqlite3.connect("nifty100.db")
 
