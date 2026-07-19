@@ -18,6 +18,7 @@ output/*
 !output/load_audit.csv
 !generate_validation_report.py
 !capital_allocation.csv
+!peer_comparison.xlsx
 
 # VS Code
 .vscode/
