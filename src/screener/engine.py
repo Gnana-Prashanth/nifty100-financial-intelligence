@@ -19,11 +19,11 @@ sectors = pd.read_sql(
     conn
 )
 
-df = df.merge(
-    sectors,
-    on="company_id",
-    how="left"
-)
+# df = df.merge(
+#     sectors,
+#     on="company_id",
+#     how="left"
+# )
 
 market_cap = pd.read_sql(
     """

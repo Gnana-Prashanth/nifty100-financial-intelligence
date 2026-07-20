@@ -17,10 +17,10 @@ market_cap = pd.read_sql(
     conn
 )
 
-sectors = pd.read_sql(
-    "SELECT company_id,broad_sector FROM sectors",
-    conn
-)
+# sectors = pd.read_sql(
+#     "SELECT company_id,broad_sector FROM sectors",
+#     conn
+# )
 
 conn.close()
 
@@ -31,12 +31,12 @@ df = financial_ratios.merge(
     how="left"
 )
 
-df = df.merge(
-    sectors,
-    on="company_id",
-    how="left"
-)
-
+# df = df.merge(
+#     sectors,
+#     on="company_id",
+#     how="left"
+# )
+print(sorted(df.columns.tolist()))
 
 #Quality Screener
 quality = apply_filters(
