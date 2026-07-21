@@ -13,10 +13,19 @@ def get_connection():
 def get_companies():
     conn = get_connection()
     query = """
-    SELECT company_id, company_name, broad_sector, sector, sub_sector
-    FROM companies
-    ORDER BY company_name
-    """
+    SELECT
+        c.id,
+        c.company_name,
+        c.company_logo,
+        s.broad_sector,
+        s.sub_sector,
+        s.market_cap_category
+    FROM companies c
+    LEFT JOIN sectors s
+    ON c.id = s.company_id
+    ORDER BY c.company_name
+            """
+    
     df = pd.read_sql(query, conn)
     conn.close()
     return df
@@ -130,3 +139,32 @@ def get_valuation(ticker):
     Placeholder for Sprint 4 valuation module.
     """
     return pd.DataFrame()
+
+@st.cache_data(ttl=600)
+def get_all_ratios(year):
+    conn = get_connection()
+
+    query = """
+    SELECT *
+    FROM financial_ratios
+    WHERE year = ?
+    """
+
+    df = pd.read_sql(query, conn, params=(year,))
+    conn.close()
+
+    return df
+
+@st.cache_data(ttl=600)
+def get_pros_cons(company_id):
+    conn = get_connection()
+
+    query = """
+    SELECT *
+    FROM prosandcons
+    WHERE company_id = ?
+    """
+
+    df = pd.read_sql_query(query, conn, params=(company_id,))
+    conn.close()
+    return df
