@@ -162,6 +162,9 @@ compounder.to_csv(
 
 print("Compounder :", len(compounder))
 
+#Export complete dataset for Streamlit Screener
+screener = df.to_csv("output/screener.csv", index=False)
+
 
 print("\n========== PRESET SCREENER SUMMARY ==========")
 
