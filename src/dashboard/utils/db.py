@@ -168,3 +168,30 @@ def get_pros_cons(company_id):
     df = pd.read_sql_query(query, conn, params=(company_id,))
     conn.close()
     return df
+
+@st.cache_data(ttl=600)
+def get_screener():
+    df = pd.read_csv("output/screener.csv")
+
+    df = df.rename(columns={"year_x": "year"})
+
+    df = (
+        df.sort_values(["company_id", "year"])
+          .drop_duplicates(subset=["company_id", "year"], keep="first")
+    )
+
+    df = df[df["year"] == "Mar 2024"]
+
+    return df
+
+@st.cache_data(ttl=600)
+def get_peer_groups():
+    conn = get_connection()
+
+    df = pd.read_sql_query(
+        "SELECT * FROM peer_groups",
+        conn
+    )
+
+    conn.close()
+    return df
