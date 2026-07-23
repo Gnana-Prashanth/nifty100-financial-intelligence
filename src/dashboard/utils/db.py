@@ -195,3 +195,14 @@ def get_peer_groups():
 
     conn.close()
     return df
+
+@st.cache_data
+def get_capital_allocation():
+    return pd.read_csv("output/capital_allocation.csv")
+
+@st.cache_data
+def get_reports():
+    return pd.read_sql(
+        "SELECT * FROM documents",
+        get_connection()
+    )
