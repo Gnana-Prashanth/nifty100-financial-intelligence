@@ -19,6 +19,7 @@ output/*
 !generate_validation_report.py
 !capital_allocation.csv
 !peer_comparison.xlsx
+!valuation_summary.xlsx
 
 # VS Code
 .vscode/
