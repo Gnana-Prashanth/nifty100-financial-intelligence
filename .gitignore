@@ -20,6 +20,9 @@ output/*
 !capital_allocation.csv
 !peer_comparison.xlsx
 !valuation_summary.xlsx
+!analysis_parsed.csv
+!parse_failures.csv
+!cagr_manual_review.csv
 
 # VS Code
 .vscode/

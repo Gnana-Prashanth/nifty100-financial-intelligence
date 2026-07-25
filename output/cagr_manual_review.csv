@@ -1,0 +1,7 @@
+company_id,metric_type,period_years,value_pct,revenue_cagr_5yr,difference,pat_cagr_5yr,return_on_equity_pct
+SBILIFE,compounded_sales_growth,3,17.0,24.32,7.32,,
+WIPRO,compounded_sales_growth,3,13.0,7.75,5.25,,
+HDFCBANK,compounded_sales_growth,3,30.0,21.91,8.09,,
+INFY,compounded_sales_growth,3,5.0,12.0,7.0,,
+SBILIFE,compounded_profit_growth,5,6.0,,5.14,11.14,
+WIPRO,compounded_profit_growth,3,0.0,,5.03,5.03,
