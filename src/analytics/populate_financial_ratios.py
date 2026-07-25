@@ -439,6 +439,18 @@ count = pd.read_sql(
 
 print(count)
 
+financial_ratios_updated = pd.read_sql(
+    "SELECT * FROM financial_ratios",
+    conn
+)
+
+financial_ratios_updated.to_excel(
+    "data/supporting/financial_ratios.xlsx",
+    index=False
+)
+
+print("financial_ratios.xlsx updated successfully✅")
+
 conn.close()
 
 
