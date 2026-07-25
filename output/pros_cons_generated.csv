@@ -1,0 +1,224 @@
+company_id,type,rule_id,text,confidence_pct
+SIEMENS,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SIEMENS,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ABB,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ABB,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ABB,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ADANIENSOL,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ADANIENT,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ADANIENT,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+ADANIENT,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ADANIGREEN,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ADANIGREEN,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ADANIPORTS,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ADANIPORTS,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ADANIPORTS,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+ADANIPORTS,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ADANIPOWER,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ADANIPOWER,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+AMBUJACEM,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+AMBUJACEM,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+APOLLOHOSP,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+APOLLOHOSP,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ASIANPAINT,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ATGL,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ATGL,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+AXISBANK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+AXISBANK,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+AXISBANK,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJAJ-AUTO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BAJAJFINSV,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+BAJAJFINSV,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BAJAJFINSV,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+BAJAJFINSV,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJAJHLDNG,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+BAJAJHLDNG,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BAJAJHLDNG,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BAJAJHLDNG,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BAJFINANCE,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+BAJFINANCE,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BAJFINANCE,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+BAJFINANCE,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BAJFINANCE,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BANKBARODA,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BANKBARODA,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+BANKBARODA,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BEL,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BEL,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BHARTIARTL,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+BHEL,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+BOSCHLTD,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+BOSCHLTD,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BOSCHLTD,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BPCL,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+BPCL,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+BRITANNIA,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+CANBK,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+CANBK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+CHOLAFIN,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+CHOLAFIN,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+CHOLAFIN,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+CHOLAFIN,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+CHOLAFIN,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+CIPLA,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+CIPLA,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+CIPLA,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+CIPLA,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+COALINDIA,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+COALINDIA,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+COALINDIA,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+DABUR,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DIVISLAB,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+DIVISLAB,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DLF,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+DLF,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+DMART,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+DMART,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DMART,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+DRREDDY,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+DRREDDY,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+DRREDDY,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DRREDDY,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+EICHERMOT,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+EICHERMOT,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+EICHERMOT,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+GAIL,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+GODREJCP,con,C04,Company reported a net loss in the most recent financial year.,95
+HAL,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HAL,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+HAL,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HAL,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+HAVELLS,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+HAVELLS,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HCLTECH,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HDFCBANK,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+HDFCBANK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HDFCBANK,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+HDFCBANK,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+HDFCLIFE,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+HDFCLIFE,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HDFCLIFE,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HEROMOTOCO,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HEROMOTOCO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HINDALCO,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HINDALCO,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+HINDALCO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HINDALCO,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+HINDUNILVR,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+HINDUNILVR,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ICICIBANK,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ICICIBANK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ICICIBANK,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+ICICIBANK,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ICICIBANK,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+ICICIGI,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ICICIGI,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ICICIGI,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+ICICIPRULI,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ICICIPRULI,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ICICIPRULI,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+INDIGO,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+INDIGO,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+INDIGO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+INDUSINDBK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+INFY,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+IRCTC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+IRCTC,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+IRCTC,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+IRFC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+IRFC,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+ITC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ITC,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+JIOFIN,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+JSWENERGY,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+JSWSTEEL,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+KOTAKBANK,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+KOTAKBANK,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+KOTAKBANK,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+KOTAKBANK,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+LICI,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+LODHA,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+LODHA,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+LODHA,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+LODHA,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+LTIM,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+LTIM,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+LTIM,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+M&M,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+MARUTI,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+MARUTI,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+MOTHERSON,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+MOTHERSON,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+NAUKRI,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+NAUKRI,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+NAUKRI,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+NESTLEIND,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+NHPC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+NHPC,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+NTPC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ONGC,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+ONGC,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+PFC,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+PFC,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+PFC,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+PFC,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+PIDILITIND,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+PNB,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+PNB,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+PNB,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+POWERGRID,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+POWERGRID,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+RECLTD,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+RECLTD,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+RECLTD,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SBILIFE,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+SBIN,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+SBIN,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SBIN,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+SHREECEM,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SHRIRAMFIN,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+SHRIRAMFIN,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+SHRIRAMFIN,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+SHRIRAMFIN,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+SHRIRAMFIN,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+SUNPHARMA,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+SUNPHARMA,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+SUNPHARMA,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SUNPHARMA,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TATACONSUM,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+TATACONSUM,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TATAPOWER,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+TATAPOWER,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+TATAPOWER,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TCS,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+TCS,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TECHM,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TITAN,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+TITAN,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TORNTPHARM,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+TORNTPHARM,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TRENT,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+TRENT,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+TRENT,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TRENT,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+TVSMOTOR,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+TVSMOTOR,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+TVSMOTOR,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+ULTRACEMCO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+UNIONBANK,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+UNIONBANK,con,C06,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations.,95
+UNITDSPR,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+UNITDSPR,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+UNITDSPR,con,C12,Revenue growing below 5% CAGR over five years suggests limited business momentum.,85
+VBL,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+VBL,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+VBL,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+VBL,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90
+VEDL,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+WIPRO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ZOMATO,pro,P04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90
+ZOMATO,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ZYDUSLIFE,pro,P05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,85
+ZYDUSLIFE,pro,P06,Net profit compounding above 20% over five years creates significant shareholder value.,90
+ZYDUSLIFE,pro,P07,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ZYDUSLIFE,pro,P09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding.,90

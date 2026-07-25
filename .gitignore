@@ -23,6 +23,7 @@ output/*
 !analysis_parsed.csv
 !parse_failures.csv
 !cagr_manual_review.csv
+!pros_cons_generated.csv
 
 # VS Code
 .vscode/
