@@ -156,6 +156,24 @@ The dashboard supports:
 - Valuation analytics
 - Trend visualization
 
+# Dashboard Preview
+
+| Home | Company Profile |
+|------|-----------------|
+| ![](screenshots/home.png) | ![](screenshots/profile.png) |
+
+| Screener | Peer Comparison |
+|-----------|-----------------|
+| ![](screenshots/screener.png) | ![](screenshots/peers.png) |
+
+| Trend | Sector |
+|--------|--------|
+| ![](screenshots/trends.png) | ![](screenshots/sectors.png) |
+
+| Capital Allocation | Annual Reports |
+|--------------------|----------------|
+| ![](screenshots/capital.png) | ![](screenshots/reports.png) |
+
 
 # 🏗 Project Architecture
 
@@ -720,3 +738,241 @@ Across all four sprints, the project achieved:
 
 The final system provides a complete workflow from raw financial statements to interactive business intelligence dashboards for Nifty 100 companies.
 
+# 🖥 Dashboard Screens
+
+The project includes an interactive **8-page Streamlit dashboard** for exploring financial data, screening companies, and visualizing key business metrics.
+
+---
+
+## 🏠 1. Home Dashboard
+
+**Purpose**
+
+Provides an overview of the entire Nifty 100 universe.
+
+### Features
+
+- Summary KPI cards
+- Sector distribution
+- Top-performing companies
+- Year selection
+- Interactive navigation
+
+---
+
+## 🏢 2. Company Profile
+
+Displays a detailed financial profile for an individual company.
+
+### Features
+
+- Company information
+- Sector & Sub-sector
+- Financial KPIs
+- Revenue & Net Profit charts
+- ROE & ROCE trends
+- Pros & Cons
+- Company search
+
+---
+
+## 🔍 3. Financial Screener
+
+Filter companies using customizable financial metrics.
+
+### Features
+
+- 10 interactive sliders
+- 6 preset screeners
+- Live filtering
+- CSV download
+- Composite quality score
+
+Supported presets:
+
+- Quality
+- Value
+- Growth
+- Dividend
+- Debt-Free
+- Turnaround
+
+---
+
+## 🤝 4. Peer Comparison
+
+Compare companies within the same peer group.
+
+### Features
+
+- Peer group selector
+- Radar chart
+- KPI comparison
+- Peer benchmarking
+- Side-by-side metrics
+
+---
+
+## 📈 5. Trend Analysis
+
+Analyze long-term financial performance.
+
+### Features
+
+- Company search
+- Multi-metric selection
+- 10-year trend visualization
+- YoY growth annotations
+- Interactive Plotly charts
+
+---
+
+## 🏭 6. Sector Analysis
+
+Compare companies across industry sectors.
+
+### Features
+
+- Sector filter
+- Bubble chart
+- Market capitalization visualization
+- Sector median KPI comparison
+
+---
+
+## 🌳 7. Capital Allocation
+
+Visualize how companies allocate capital.
+
+### Features
+
+- Treemap visualization
+- Capital allocation patterns
+- Company grouping
+- Pattern-wise comparison
+
+---
+
+## 📄 8. Annual Reports
+
+Displays all available annual reports for the selected company with direct links to BSE PDFs.
+
+### Features
+
+- Company search
+- Available report years
+- Clickable PDF links
+- BSE integration
+
+
+---
+
+# 📦 Generated Outputs
+
+The project automatically generates analytical reports and processed datasets.
+
+| Output File | Description |
+|------------|-------------|
+| `load_audit.csv` | ETL loading summary |
+| `validation_failures.csv` | Data quality validation report |
+| `capital_allocation.csv` | Capital allocation classification |
+| `quality_screener.csv` | Quality preset results |
+| `growth_screener.csv` | Growth preset results |
+| `value_screener.csv` | Value preset results |
+| `dividend_screener.csv` | Dividend preset results |
+| `compounder_screener.csv` | Quality compounder results |
+| `turnaround_screener.csv` | Turnaround candidates |
+| `peer_comparison.xlsx` | Peer comparison workbook |
+| `screener_output.xlsx` | Complete screener output |
+| `valuation_summary.xlsx` | Company valuation metrics |
+| `valuation_flags.csv` | Discount & Caution companies |
+
+---
+
+# ⚙ Requirements
+
+- Python 3.x
+- SQLite
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- OpenPyXL
+- PyTest
+
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Running the Project
+
+## Step 1
+
+Clone the repository.
+
+```bash
+git clone <repository-url>
+```
+
+---
+
+## Step 2
+
+Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Step 3
+
+Run the dashboard.
+
+```bash
+streamlit run src/dashboard/app.py
+```
+
+---
+
+## Step 4
+
+Open the application in your browser.
+
+```
+http://localhost:8501
+```
+
+---
+
+# 🔄 Project Workflow
+
+```
+Raw Excel Files
+        │
+        ▼
+ETL Pipeline
+        │
+        ▼
+SQLite Database
+        │
+        ▼
+Financial Analytics
+        │
+        ▼
+Screening Engine
+        │
+        ▼
+Peer Analysis
+        │
+        ▼
+Valuation Module
+        │
+        ▼
+Interactive Streamlit Dashboard
+```
