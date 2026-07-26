@@ -26,6 +26,7 @@ output/*
 !pros_cons_generated.csv
 !capital_allocation_distribution.csv
 !pattern_changes.csv
+!TCS_tearsheet.pdf
 
 # VS Code
 .vscode/
