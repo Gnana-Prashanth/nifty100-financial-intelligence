@@ -899,6 +899,7 @@ The project automatically generates analytical reports and processed datasets.
 - Plotly
 - OpenPyXL
 - PyTest
+- ReportLab
 
 Install all dependencies using:
 
