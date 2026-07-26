@@ -24,6 +24,8 @@ output/*
 !parse_failures.csv
 !cagr_manual_review.csv
 !pros_cons_generated.csv
+!capital_allocation_distribution.csv
+!pattern_changes.csv
 
 # VS Code
 .vscode/
