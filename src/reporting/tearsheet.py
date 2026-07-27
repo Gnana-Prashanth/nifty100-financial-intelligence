@@ -364,7 +364,8 @@ def generate_tearsheet(company_id):
 
     output = (
         BASE_DIR /
-        "output" /
+        "reports" /
+        "tearsheets" /
         f"{company_id}_tearsheet.pdf"
     )
 
