@@ -102,9 +102,9 @@ def company_info(company_id):
     ]
 
     if row.empty:
-        raise ValueError(
-            f"{company_id} not found in companies.xlsx"
-        )
+        return {
+            "company_name": company_id
+        }
 
     return row.iloc[0]
 
@@ -389,7 +389,7 @@ def generate_tearsheet(company_id):
     company = company_info(company_id)
 
     company_name = company["company_name"]
-    ticker = company["id"]
+    ticker = company_id
 
     ratio_hist, bs_hist, cf_hist = company_history(company_id)
 
@@ -439,17 +439,19 @@ def generate_tearsheet(company_id):
 
     story.append(Spacer(1, 20))
 
-    latest = (
-        ratio_hist.dropna(
-            subset=[
-                "return_on_equity_pct",
-                "return_on_capital_employed_pct",
-                "debt_to_equity"
-            ],
-            how="all"
-        )
-        .iloc[-1]
+    valid_ratios = ratio_hist.dropna(
+        subset=[
+            "return_on_equity_pct",
+            "return_on_capital_employed_pct",
+            "debt_to_equity"
+        ],
+        how="all"
     )
+
+    if valid_ratios.empty:
+        latest = ratio_hist.iloc[-1] if not ratio_hist.empty else None
+    else:
+        latest = valid_ratios.iloc[-1]
 
     kpis = [
 
