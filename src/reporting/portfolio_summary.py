@@ -46,7 +46,7 @@ def trend_arrow(current, previous):
     else:
         return "↓"
 
-#Reverce Arrow fro Debt/Equity
+#Reverce Arrow for Debt/Equity
 def debt_trend_arrow(current, previous):
 
     if pd.isna(current) or pd.isna(previous):
