@@ -900,6 +900,7 @@ The project automatically generates analytical reports and processed datasets.
 - OpenPyXL
 - PyTest
 - ReportLab
+- scikit-learn
 
 Install all dependencies using:
 
