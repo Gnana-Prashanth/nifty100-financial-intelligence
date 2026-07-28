@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import time
 
-from .routers import health
+from .routers import health, companies
 
 app = FastAPI(
     title="Nifty100 Financial Intelligence API",
@@ -49,5 +49,10 @@ async def log_requests(request, call_next):
 
 app.include_router(
     health.router,
+    prefix="/api/v1"
+)
+
+app.include_router(
+    companies.router,
     prefix="/api/v1"
 )
