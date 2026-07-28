@@ -27,6 +27,7 @@ output/*
 !capital_allocation_distribution.csv
 !pattern_changes.csv
 !TCS_tearsheet.pdf
+!cluster_labels.csv
 
 # VS Code
 .vscode/
