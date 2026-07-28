@@ -28,6 +28,8 @@ output/*
 !pattern_changes.csv
 !TCS_tearsheet.pdf
 !cluster_labels.csv
+!outlier_report.csv
+!portfolio_stats.csv
 
 # VS Code
 .vscode/
