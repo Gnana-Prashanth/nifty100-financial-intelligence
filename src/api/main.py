@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import time
 
-from .routers import health, companies, portfolio, screener, peers, valuation
+from .routers import health, companies, portfolio, screener, peers, valuation, sectors
 
 app = FastAPI(
     title="Nifty100 Financial Intelligence API",
@@ -77,3 +77,7 @@ app.include_router(
     prefix="/api/v1"
 )
 
+app.include_router(
+    sectors.router,
+    prefix="/api/v1"
+)
