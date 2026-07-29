@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nifty100-financial-intelligence
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
