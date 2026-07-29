@@ -15,9 +15,25 @@ router = APIRouter(
 
 @router.get("")
 def list_companies(
-    sector: str | None = Query(default=None),
-    market_cap_category: str | None = Query(default=None),
-    search: str | None = Query(default=None)
+
+    sector: str | None = Query(
+        None,
+        description="Filter by broad sector",
+        example="Financials"
+    ),
+
+    market_cap_category: str | None = Query(
+        None,
+        description="Filter by market cap category",
+        example="Large Cap"
+    ),
+
+    search: str | None = Query(
+        None,
+        description="Search by company name or ticker",
+        example="TCS"
+    )
+    
 ):
 
     conn = get_connection()
@@ -367,7 +383,7 @@ def company_ratios(
             description="Company ticker symbol",
             example="TCS"
         ),
-    year: str | None = Query(None, example="MAR 2022")
+    year: str | None = Query(None, examplees="MAR 2022")
 ):
 
     conn = get_connection()
@@ -436,4 +452,150 @@ def company_tearsheet(ticker: str):
         filename=f"{ticker}_tearsheet.pdf"
     )
 
+
+#==================================================
+#          Endpoint 8 - /documents
+#==================================================
+
+@router.get("/{ticker}/documents")
+def company_documents(ticker: str):
+
+    conn = get_connection()
+    cur = conn.cursor()
+
+    cur.execute("""
+        SELECT
+            Year,
+            Annual_Report
+        FROM documents
+        WHERE company_id=?
+        ORDER BY year
+    """, (ticker,))
+
+    rows = cur.fetchall()
+
+    conn.close()
+
+    if not rows:
+        raise HTTPException(
+            status_code=404,
+            detail="Documents not found"
+        )
+
+    result = []
+
+    for row in rows:
+
+        result.append({
+
+            "Year": row["Year"],
+
+            "annual_report": row["Annual_Report"],
+
+            "is_url_valid": bool(row["Annual_Report"])
+
+        })
+
+    return result
+
+
+#==================================================
+#          Endpoint 9 - / Peer Comparison
+#==================================================
+
+@router.get("/{ticker}/peers/compare")
+def compare_with_peers(ticker: str):
+
+    conn = get_connection()
+    cur = conn.cursor()
+
+    # Find peer group
+    cur.execute("""
+        SELECT peer_group_name
+        FROM peer_groups
+        WHERE company_id = ?
+    """, (ticker,))
+
+    group = cur.fetchone()
+
+    if not group:
+        conn.close()
+        raise HTTPException(
+            status_code=404,
+            detail="Peer group not found"
+        )
+
+    peer_group = group["peer_group_name"]
+
+
+    cur.execute("""
+        SELECT company_id
+        FROM peer_groups
+        WHERE peer_group_name = ?
+        AND is_benchmark = 1
+    """, (peer_group,))
+
+    benchmark = cur.fetchone()["company_id"]
+
+
+    cur.execute("""
+        SELECT
+            metric,
+            value
+        FROM peer_percentiles
+        WHERE company_id = ?
+    """, (ticker,))
+
+    company = {
+        r["metric"]: r["value"]
+        for r in cur.fetchall()
+    }
+
+
+    cur.execute("""
+        SELECT
+            metric,
+            value
+        FROM peer_percentiles
+        WHERE company_id = ?
+    """, (benchmark,))
+
+    benchmark_values = {
+        r["metric"]: r["value"]
+        for r in cur.fetchall()
+    }
+
+
+    cur.execute("""
+        SELECT
+            metric,
+            ROUND(AVG(value),2) AS avg_value
+        FROM peer_percentiles
+        WHERE peer_group = ?
+        GROUP BY metric
+    """, (peer_group,))
+
+    peer_average = {
+        r["metric"]: r["avg_value"]
+        for r in cur.fetchall()
+    }
+
+    conn.close()
+
+
+    return {
+
+        "peer_group": peer_group,
+
+        "benchmark_company": benchmark,
+
+        "company": company,
+
+        "peer_average": peer_average,
+
+        "benchmark": benchmark_values
+
+    }
+
 #uvicorn src.api.main:app --reload --port 8000
+#http://127.0.0.1:8000/docs
