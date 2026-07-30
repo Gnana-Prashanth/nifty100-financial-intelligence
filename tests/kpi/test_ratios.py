@@ -1,5 +1,8 @@
+#============== Imports ================ 
+
 import sys
 import os
+import pytest
 
 sys.path.append(
     os.path.abspath(
@@ -10,162 +13,168 @@ sys.path.append(
     )
 )
 
+from src.analytics.ratios import (
+    net_profit_margin,
+    operating_profit_margin,
+    opm_cross_check,
+    return_on_equity,
+    return_on_capital_employed,
+    return_on_assets,
+    debt_to_equity,
+    high_leverage_flag,
+    interest_coverage_ratio,
+    icr_label,
+    icr_warning_flag,
+    net_debt,
+    asset_turnover
+)
 
-from src.analytics.ratios import net_profit_margin
 
-print("Normal Case")
-print(net_profit_margin(100, 1000))
+#============== Net Profit Margin ================ 
 
-print("Zero Sales:")
-print(net_profit_margin(100,0))
+def test_net_profit_margin_normal():
+    assert net_profit_margin(100, 1000) == 10.0
 
 
+def test_net_profit_margin_zero_sales():
+    assert net_profit_margin(100, 0) is None
 
-from src.analytics.ratios import operating_profit_margin
 
-print("\n Operaating Profit Margin:")
+#============ Operating Profit Margin ============
 
-print("Normal Case:")
-print(operating_profit_margin(250, 1000))
+def test_operating_profit_margin_normal():
+    assert operating_profit_margin(250, 1000) == 25.0
 
-print("Zero Sales:")
-print(operating_profit_margin(250, 0))
 
+def test_operating_profit_margin_zero_sales():
+    assert operating_profit_margin(250, 0) is None
 
 
-from src.analytics.ratios import opm_cross_check
-print("\nOPM Cross Check:")
-print(opm_cross_check(25.0, 25.5)) #False
-print(opm_cross_check(25.0, 27.5)) #True
+#============== OPM Cross Check ================== 
 
+def test_opm_cross_check_false():
+    assert opm_cross_check(25.0, 25.5) is False
 
 
-from src.analytics.ratios import return_on_equity
+def test_opm_cross_check_true():
+    assert opm_cross_check(25.0, 27.5) is True
 
-print("\nReturn on Equity:")
 
-print("Normal Case:")
-print(return_on_equity(200, 100, 900))
+def test_opm_cross_check_none():
+    assert opm_cross_check(None, 25.0) is False
 
-print("Zero Equity:")
-print(return_on_equity(200, 100, -100))
 
-print("Negative Equity:")
-print(return_on_equity(200, -50, -100))
+#===================== ROE ======================
 
+def test_return_on_equity_positive():
+    assert return_on_equity(200, 100, 900) == 20.0
 
 
-from src.analytics.ratios import return_on_capital_employed
+def test_return_on_equity_negative_equity():
+    assert return_on_equity(200, 100, -100) is None
 
-print("\nReturn on Capital Employed:")
 
-print("Normal Case:")
-print(return_on_capital_employed(300, 100, 600, 300))
+#==================== ROCE ======================
 
-print("Zero Capital:")
-print(return_on_capital_employed(300, 100, -100, 0))
+def test_roce_normal():
+    assert return_on_capital_employed(300, 100, 600, 300) == 30.0
 
-print("Negative Capital:")
-print(return_on_capital_employed(300, -100, -200, 0))
 
+def test_roce_negative_capital():
+    assert return_on_capital_employed(300, -100, -200, 0) is None
 
 
-from src.analytics.ratios import return_on_assets
+#===================== ROA ======================
 
-print("\nReturn on Assets:")
+def test_roa_normal():
+    assert return_on_assets(150, 3000) == 5.0
 
-print("Normal Case:")
-print(return_on_assets(150, 3000))
 
-print("Zero Assets:")
-print(return_on_assets(150, 0))
+def test_roa_zero_assets():
+    assert return_on_assets(150, 0) is None
 
-print("Negative Assets:")
-print(return_on_assets(150, -500))
 
+#================ Debt-to-Equity =================
 
+def test_debt_to_equity_normal():
+    assert debt_to_equity(500, 100, 900) == 0.5
 
-from src.analytics.ratios import debt_to_equity
 
-print("\nDebt-to-Equity:")
+def test_debt_to_equity_debt_free():
+    assert debt_to_equity(0, 100, 900) == 0
 
-print("Normal Case:")
-print(debt_to_equity(500, 100, 900))
 
-print("Debt Free:")
-print(debt_to_equity(0, 100, 900))
+def test_debt_to_equity_negative_equity():
+    assert debt_to_equity(500, 100, -100) is None
 
-print("Zero Equity:")
-print(debt_to_equity(500, 100, -100))
 
+#=============== High Leverage Flag ===============
 
+def test_high_leverage_true():
+    assert high_leverage_flag(6, "Technology") is True
 
-from src.analytics.ratios import high_leverage_flag
 
-print("\nHigh Leverage Flag:")
+def test_high_leverage_financials():
+    assert high_leverage_flag(6, "Financials") is False
 
-print(high_leverage_flag(6, "Technology"))
 
-print(high_leverage_flag(6, "Financials"))
+def test_high_leverage_low_ratio():
+    assert high_leverage_flag(3, "Technology") is False
 
-print(high_leverage_flag(3, "Technology"))
 
-print(high_leverage_flag(None, "Technology"))
+def test_high_leverage_none():
+    assert high_leverage_flag(None, "Technology") is False
 
 
+#============= Interest Coverage Ratio ==============
 
-from src.analytics.ratios import interest_coverage_ratio
+def test_interest_coverage_normal():
+    assert interest_coverage_ratio(400, 100, 50) == 10
 
-print("\nInterest Coverage Ratio:")
 
-print("Normal Case:")
-print(interest_coverage_ratio(400, 100, 50))
+def test_interest_coverage_zero_interest():
+    assert interest_coverage_ratio(400, 100, 0) is None
 
-print("Debt Free:")
-print(interest_coverage_ratio(400, 100, 0))
 
+#=================== ICR Label =======================
 
+def test_icr_label_none():
+    assert icr_label(None) == "Debt Free"
 
-from src.analytics.ratios import icr_label
 
-print("\nICR Label:")
+def test_icr_label_normal():
+    assert icr_label(10) is None
 
-print(icr_label(None))
 
-print(icr_label(10))
+#=================== ICR Warning ====================
 
+def test_icr_warning_true():
+    assert icr_warning_flag(1.2) is True
 
 
-from src.analytics.ratios import icr_warning_flag
+def test_icr_warning_false():
+    assert icr_warning_flag(2.5) is False
 
-print("\nICR Warning Flag:")
 
-print(icr_warning_flag(1.2))
+def test_icr_warning_none():
+    assert icr_warning_flag(None) is False
 
-print(icr_warning_flag(2.5))
 
-print(icr_warning_flag(None))
+#=================== Net Debt ======================
 
+def test_net_debt_positive():
+    assert net_debt(500, 150) == 350
 
 
-from src.analytics.ratios import net_debt
+def test_net_debt_negative():
+    assert net_debt(100, 150) == -50
 
-print("\nNet Debt:")
 
-print("Normal Case:")
-print(net_debt(500, 150))
+#================= Asset Turnover ===================
 
-print("More Investments:")
-print(net_debt(100, 150))
+def test_asset_turnover_normal():
+    assert asset_turnover(1000, 500) == 2
 
 
-
-from src.analytics.ratios import asset_turnover
-
-print("\nAsset Turnover:")
-
-print("Normal Case:")
-print(asset_turnover(1000, 500))
-
-print("Zero Assets:")
-print(asset_turnover(1000, 0))
+def test_asset_turnover_zero_assets():
+    assert asset_turnover(1000, 0) is None

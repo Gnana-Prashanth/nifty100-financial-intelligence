@@ -1,5 +1,7 @@
 import sys
 import os
+import pandas as pd
+import pytest
 
 sys.path.append(
     os.path.abspath(
@@ -10,106 +12,151 @@ sys.path.append(
     )
 )
 
-from src.etl.loader import load_excel
-from src.etl.validator import check_duplicates
-
-
-pl = load_excel(
-    "data/raw/profitandloss.xlsx"
-)
-
-bs = load_excel(
-    "data/raw/balancesheet.xlsx"
-)
-
-cf = load_excel(
-    "data/raw/cashflow.xlsx"
-)
-
-print("Duplicates")
-
-print(
-    "Profit and loss:",
-    check_duplicates(pl)
-)
-
-print(
-    "Balance Sheet:",
-    check_duplicates(bs)
-)
-
-print(
-    "Cash Flow:",
-    check_duplicates(cf)
+from src.etl.validator import (
+    check_duplicates,
+    foreign_key_check,
+    null_value_check,
+    balance_sheet_check,
+    opm_check,
+    positive_sales_check
 )
 
 
-# Testing Foreign Keys
+# ================ Duplicate Tests ==================
 
-companies = load_excel(
-    "data/raw/companies.xlsx"
-)
+def test_check_duplicates_none():
 
-from src.etl.validator import foreign_key_check
+    df = pd.DataFrame({
+        "company_id": ["TCS", "INFY"],
+        "year": ["2024", "2024"]
+    })
 
-extra_ids = foreign_key_check(
-    pl,
-    companies
-)
-
-print(
-    "\nExtra IDs in profit and loss:"
-)
-
-print(extra_ids)
+    assert check_duplicates(df) == 0
 
 
-#Null values check
-from src.etl.validator import null_value_check
-print("\nNULL VALUES")
-print(null_value_check(pl))
+def test_check_duplicates_present():
 
-#print(f"Null values in bs: {bs.isnull().sum().sum()}")
-#print(f"Null values in cf:\n{cf.isnull().sum()}")
+    df = pd.DataFrame({
+        "company_id": ["TCS", "TCS"],
+        "year": ["2024", "2024"]
+    })
 
-#balance sheet check
-from src.etl.validator import balance_sheet_check
-
-print(
-    "\nBalance Sheet Failures:",
-    balance_sheet_check(bs)
-)
+    assert check_duplicates(df) == 1
 
 
-#opm check
-from src.etl.validator import opm_check
+# =============== Foreign Key Tests =================
 
-failures = opm_check(pl)
+def test_foreign_key_valid():
 
-print(failures[
-    [
-        "company_id",
-        "year",
-        "sales",
-        "operating_profit",
-        "opm_percentage",
-        "calculated_opm"
-    ]
-].head(10))
+    child = pd.DataFrame({
+        "company_id": [1, 2]
+    })
+
+    parent = pd.DataFrame({
+        "id": [1, 2, 3]
+    })
+
+    assert foreign_key_check(child, parent) == []
 
 
-#positive sales check
-from src.etl.validator import positive_sales_check
+def test_foreign_key_extra():
 
-print(
-    "\nSales Failures:",
-    positive_sales_check(pl)
-)
+    child = pd.DataFrame({
+        "company_id": [1, 5]
+    })
 
-sales_failures = pl[
-    pl["sales"] <= 0
-]
+    parent = pd.DataFrame({
+        "id": [1, 2]
+    })
 
-print(sales_failures[
-    ["company_id", "year", "sales"]
-])
+    assert foreign_key_check(child, parent) == [5]
+
+
+# =============== Null Value Tests =================
+
+def test_null_value_none():
+
+    df = pd.DataFrame({
+        "sales": [10, 20]
+    })
+
+    result = null_value_check(df)
+
+    assert result.empty
+
+
+def test_null_value_present():
+
+    df = pd.DataFrame({
+        "sales": [10, None]
+    })
+
+    result = null_value_check(df)
+
+    assert result["sales"] == 1
+
+
+# ============== Balance Sheet Tests ================
+
+def test_balance_sheet_valid():
+
+    df = pd.DataFrame({
+        "total_assets": [100],
+        "total_liabilities": [100]
+    })
+
+    assert balance_sheet_check(df) == 0
+
+
+def test_balance_sheet_failure():
+
+    df = pd.DataFrame({
+        "total_assets": [100],
+        "total_liabilities": [80]
+    })
+
+    assert balance_sheet_check(df) == 1
+
+
+# ================== OPM Tests ====================
+
+def test_opm_valid():
+
+    df = pd.DataFrame({
+        "sales": [100],
+        "operating_profit": [25],
+        "opm_percentage": [25]
+    })
+
+    assert len(opm_check(df)) == 0
+
+
+def test_opm_failure():
+
+    df = pd.DataFrame({
+        "sales": [100],
+        "operating_profit": [25],
+        "opm_percentage": [40]
+    })
+
+    assert len(opm_check(df)) == 1
+
+
+# ============= Positive Sales Tests ===============
+
+def test_positive_sales_valid():
+
+    df = pd.DataFrame({
+        "sales": [100, 200]
+    })
+
+    assert positive_sales_check(df) == 0
+
+
+def test_positive_sales_failure():
+
+    df = pd.DataFrame({
+        "sales": [100, -50]
+    })
+
+    assert positive_sales_check(df) == 1
