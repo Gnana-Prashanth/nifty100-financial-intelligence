@@ -37,5 +37,5 @@ def normalize_year(value):
 
         return dt.strftime("%Y-%m")
 
-    except:
+    except Exception:
         return value
