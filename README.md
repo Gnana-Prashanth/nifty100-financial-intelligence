@@ -7,14 +7,82 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![FastAPI](https://img.shields.io/badge/FastAPI-REST%20API-009688)
+
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E)
+![PyTest](https://img.shields.io/badge/PyTest-Testing-0A9EDC)
+![Render](https://img.shields.io/badge/Render-Deployed-46E3B7)
+![ReportLab](https://img.shields.io/badge/ReportLab-PDF%20Reports-darkgreen)
+
+---
+
+## 📑 Table of Contents
+
+- Project Statistics
+- Technology Stack
+- Project Overview
+- Project Objectives
+- Key Features
+- Dashboard Preview
+- Project Architecture
+- Repository Structure
+- Dataset Overview
+- ETL Pipeline
+- Output Reports
+- Development Journey
+- Dashboard Screens
+- Testing
+- REST API
+- Requirements
+- Running the Project
+- Project Workflow
+- Future Enhancements
+
+
+---
+
+# 📊 Project Statistics
+
+| Metric | Value |
+|---------|------:|
+| Companies Analyzed | 92 |
+| Excel Datasets | 12 |
+| Database Tables | 12 |
+| Financial KPIs | 50+ |
+| Data Quality Rules | 16 |
+| Dashboard Pages | 8 |
+| REST API Endpoints | 16 |
+| Machine Learning Models | 1 (KMeans) |
+| Automated Tests | 100+ |
+| Agile Sprints | 6 |
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python 3 |
+| Database | SQLite |
+| Data Processing | Pandas, NumPy |
+| Visualization | Plotly |
+| Dashboard | Streamlit |
+| REST API | FastAPI |
+| Machine Learning | Scikit-learn |
+| Reporting | ReportLab |
+| Testing | PyTest, pytest-html |
+| Deployment | Render |
+| Version Control | Git & GitHub |
 
 ---
 
 # 📌 Project Overview
 
-The **Nifty100 Financial Intelligence Dashboard** is an end-to-end financial analytics platform developed to analyze listed Indian companies using publicly available financial statements.
+The **Nifty100 Financial Intelligence Dashboard** is an end-to-end financial analytics platform that transforms raw financial statements into actionable investment insights for **92 Nifty 100 companies**.
 
-The project starts with raw Excel datasets, validates and cleans the data through an ETL pipeline, stores the processed information in SQLite, computes financial KPIs, generates screening and peer comparison reports, and finally presents the results through an interactive Streamlit dashboard.
+The platform combines **ETL, financial analytics, machine learning, natural language processing, reporting, REST APIs, and interactive dashboards** into a unified system for exploring company fundamentals, screening investment opportunities, benchmarking peers, and generating automated financial reports.
+
+Starting from raw Excel datasets, the project validates and cleans financial data through a robust ETL pipeline, stores the processed information in SQLite, computes 50+ financial KPIs, performs peer and sector analysis, generates PDF reports, exposes REST APIs using FastAPI, and visualizes insights through an interactive Streamlit dashboard.
 
 The application supports financial analysis across **92 Nifty 100 companies** covering multiple sectors including Information Technology, Banking & Financial Services, FMCG, Energy, Healthcare, Automobile, Telecom, Cement, Metals, Chemicals, and Infrastructure.
 
@@ -22,14 +90,17 @@ The application supports financial analysis across **92 Nifty 100 companies** co
 
 # 🎯 Project Objectives
 
-- Build a complete financial analytics pipeline from raw Excel files.
-- Create a validated SQLite database for financial analysis.
-- Compute profitability, leverage, growth, efficiency, and cash-flow KPIs.
-- Develop configurable stock screeners with multiple investment presets.
-- Perform peer-group percentile analysis and benchmarking.
-- Generate professional Excel reports and radar charts.
-- Build an interactive Streamlit dashboard for exploring financial insights.
-- Implement valuation analytics using market multiples and Free Cash Flow Yield.
+- Build a complete end-to-end financial intelligence platform using publicly available financial data of **92 Nifty 100 companies**.
+- Develop a robust ETL pipeline to extract, validate, normalize, and store financial data in a structured SQLite database.
+- Compute **50+ financial KPIs** covering profitability, growth, leverage, efficiency, valuation, and cash flow analytics.
+- Build configurable financial screeners with multiple investment strategies and custom filtering capabilities.
+- Perform peer-group benchmarking, sector analysis, and percentile-based company comparisons.
+- Generate automated Excel reports, PDF company tearsheets, sector reports, and portfolio summary reports.
+- Develop an interactive **Streamlit dashboard** for visualizing financial performance and investment insights.
+- Implement valuation analytics using market multiples, Free Cash Flow Yield, and sector-relative comparisons.
+- Build a production-ready **FastAPI REST API** exposing financial analytics through 16 documented endpoints.
+- Apply machine learning techniques for company clustering, correlation analysis, and portfolio-level statistical insights.
+- Ensure software quality through comprehensive automated testing, performance validation, and cloud deployment on Render.
 
 ---
 
@@ -158,6 +229,8 @@ The dashboard supports:
 
 # Dashboard Preview
 
+The Streamlit dashboard consists of eight interactive pages for exploring financial performance, screening companies, benchmarking peers, and generating reports.
+
 | Home | Company Profile |
 |------|-----------------|
 | ![](screenshots/home.png) | ![](screenshots/profile.png) |
@@ -174,36 +247,110 @@ The dashboard supports:
 |--------------------|----------------|
 | ![](screenshots/capital.png) | ![](screenshots/reports.png) |
 
+## 🧠 Natural Language Processing (NLP)
+
+- Regex-based financial text parser
+- Automatic extraction of CAGR and growth metrics
+- Pros & Cons generation using 24 financial rules
+- Confidence scoring for generated insights
+- Structured NLP outputs for investment analysis
+
+---
+
+## 📄 Financial Reporting
+
+- Company PDF Tearsheets
+- Batch Tearsheet Generation
+- Sector-wise PDF Reports
+- Portfolio Summary Report
+- Cash Flow Intelligence Report
+- Distress Alert Reports
+
+---
+
+## 🤖 Machine Learning & Statistical Analysis
+
+- KMeans Clustering (5 Financial Archetypes)
+- Cluster Profiling
+- Correlation Matrix Heatmap
+- Outlier Detection using Z-Score
+- Portfolio Statistics (P10–P90, Mean, Standard Deviation)
+
+---
+
+## 🌐 REST API
+
+- FastAPI-based REST API
+- 16 Production-ready Endpoints
+- Company Profile APIs
+- Financial Screener APIs
+- Sector Analytics APIs
+- Peer Comparison APIs
+- Portfolio Statistics API
+- Market Valuation API
+- Annual Report API
+- Interactive Swagger Documentation
+- ReDoc Documentation
+- OpenAPI 3.0 Specification
+- Postman Collection
+
+---
+
+## ✅ Testing & Quality Assurance
+
+- ETL Unit Tests
+- KPI Formula Tests
+- API Endpoint Tests
+- Data Validation Tests
+- HTML Pytest Report
+- Performance Testing
+- End-to-End Integration Testing
+
+---
+
+## ☁ Deployment
+
+- Render Cloud Deployment
+- Live REST API
+- Swagger UI
+- ReDoc Documentation
+
 
 # 🏗 Project Architecture
 
-The project follows a modular architecture where each component is responsible for a specific stage of the financial analytics pipeline.
+The project follows a modular architecture where each component is responsible for a specific stage of the financial intelligence pipeline.
 
+```text
+                 Raw Excel Files
+                        │
+                        ▼
+           ETL & Data Validation
+                        │
+                        ▼
+                SQLite Database
+                        │
+        ┌───────────────┼────────────────┬────────────────┐
+        │               │                │                │
+        ▼               ▼                ▼                ▼
+ Financial Analytics  NLP Engine   Reporting Engine   REST API
+        │               │                │                │
+        ├───────────────┼────────────────┼────────────────┤
+        │               │                │                │
+        ▼               ▼                ▼                ▼
+ Screener Engine   ML Analytics   PDF Reports    API Endpoints
+        │               │                │                │
+        └───────────────┼────────────────┼────────────────┘
+                        ▼
+              Streamlit Dashboard
+                        │
+                        ▼
+        Interactive Visualizations & Reports
+                        │
+                        ▼
+             Testing & Cloud Deployment
 ```
-                    Raw Excel Files
-                           │
-                           ▼
-                  ETL & Data Validation
-                           │
-                           ▼
-                    SQLite Database
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-   Analytics Engine   Screener Engine   Reporting
-          │                │                │
-          └────────────────┼────────────────┘
-                           ▼
-                  Streamlit Dashboard
-                           │
-                           ▼
-                  Interactive Visualizations
-```
 
-The architecture separates data ingestion, analytics, reporting, screening, and dashboard modules, making the project modular, maintainable, and scalable.
-
----
+The modular architecture separates data ingestion, analytics, reporting, API services, visualization, and deployment, making the platform scalable, maintainable, and easy to extend.
 
 # 📁 Repository Structure
 
@@ -237,10 +384,15 @@ NIFTY100_FINANCIAL_INTELLIGENCE/
 │   └── schema.sql
 │
 ├── docs/
+|   ├── acceptance_checklist.pdf
+|   ├── analyst_guide.pdf
+|   ├── openapi.json
+|   ├── postman_collection.json
 │   ├── sprint1_retrospective.md
 │   ├── sprint2_retrospective.md
 │   ├── sprint3_retrospective.md
-│   └── sprint4_retrospective.md
+|   ├── sprint4_retrospective.md
+│   └── sprint5_retrospective.md
 │
 ├── notebooks/
 │   ├── apply_normalization.py
@@ -253,43 +405,80 @@ NIFTY100_FINANCIAL_INTELLIGENCE/
 │   └── manual_review_notes.md
 │
 ├── output/
-│   ├── capital_allocation.csv
-│   ├── compounder_screener.csv
-│   ├── dividend_screener.csv
-│   ├── growth_screener.csv
-│   ├── turnaround_screener.csv
-│   ├── value_screener.csv
-│   ├── quality_screener.csv
-│   ├── screener.csv
-│   ├── screener_output.xlsx
-│   ├── peer_comparison.xlsx
-│   ├── valuation_summary.xlsx
-│   ├── valuation_flags.csv
-│   ├── load_audit.csv
-│   ├── validation_failures.csv
-│   ├── ratio_edge_cases.log
-│   └── generate_validation_report.py
+|   ├── final_deliverables/
+|   ├── analysis_parsed.csv
+|   ├── cagr_manual_review.csv
+|   ├── capital_allocation_distribution.csv
+|   ├── capital_allocation.csv
+|   ├── cashflow_intelligence.xlsx
+|   ├── cluster_labels.csv
+|   ├── compounder_screener.csv
+|   ├── distress_alerts.csv
+|   ├── dividend_screener.csv
+|   ├── generate_validation_report.py
+|   ├── growth_screener.csv
+|   ├── load_audit.csv
+|   ├── outlier_report.csv
+|   ├── parse_failures.csv
+|   ├── pattern_changes.csv
+|   ├── peer_comparison.xlsx
+|   ├── portfolio_stats.csv
+|   ├── pros_cons_generated.csv
+|   ├── quality_screener.csv
+|   ├── ratio_edge_cases.log
+|   ├── screener_output.xlsx
+|   ├── screener.csv
+|   ├── skipped_tearsheets.csv
+|   ├── turnaround_screener.csv
+|   ├── validation_failures.csv
+|   ├── valuation_flags.csv
+|   ├── valuation_summary.xlsx
+|   └──  value_screener.csv
+|
+├── performance/
+|   ├── load_test.py
+|   └── perf_notes.md 
 │
 ├── reports/
-│   └── radar_charts/
+|   ├── portfolio/
+|   ├── radar_charts/
+|   ├── sector/
+│   ├── tearsheets/
+|   ├── correlation_heatmap.png
+|   ├── elbow_plot.png
+|   └── pytest_report.html
 │
+├── screenshots/
+|
 ├── src/
 │   ├── analytics/
-│   │   ├── ratios.py
 │   │   ├── cagr.py
+|   |   ├── capital_allocation_report.py
+|   |   ├── cashflow_kpis.py
 │   │   ├── cashflow.py
+|   |   ├── clustering.py
 │   │   ├── composite_score.py
 |   |   ├── day13_edge_cases.py
 │   │   ├── peer.py
 │   │   ├── quality_metrics.py
+│   │   ├── ratios.py
 |   |   ├── test_quality_metrics.py
 │   │   ├── generate_capital_allocation.py
 │   │   ├── populate_financial_ratios.py
 │   │   └── valuation.py
 │   │
 │   ├── api/
+|   |   ├── database.py
+|   |   ├── main.py
 │   │   └── routers/
-│   │
+│   │       ├── companies.py
+│   │       ├── health.py
+|   |       ├── peers.py
+|   |       ├── portfolio.py
+|   |       ├── screener.py
+|   |       ├── sectors.py
+|   |       └──  valuation.py
+│   │       
 │   ├── dashboard/
 │   │   ├── app.py
 │   │   ├── pages/
@@ -312,34 +501,48 @@ NIFTY100_FINANCIAL_INTELLIGENCE/
 │   │   └── explore_data.py
 │   │
 │   ├── nlp/
+|   |   ├── parser.py
+|   |   └── pros_cons_generator.py 
 │   │
 │   ├── reporting/
+|   |   ├── batch_tearsheets.py
 │   │   ├── export_excel.py
 │   │   ├── peer_comparison_excel.py
-│   │   └── radar_charts.py
+|   |   ├── portfolio_summary.py
+│   │   ├── radar_charts.py
+|   |   ├── sector_report.py
+|   |   └── tearsheet.py 
 │   │
 │   └── screener/
 │       ├── engine.py
 │       └── presets.py
 │
 ├── tests/
+|   ├── api/
+|   |   ├── test_companies.py
+|   |   ├── test_health.py
+|   |   ├── test_screener.py
+|   |   └── test_sectors.py
+|   |
 │   ├── etl/
 │   │   ├── test_loader.py
 │   │   ├── test_normalizer.py
 │   │   └── test_validator.py
 │   │
-│   ├── kpi/
-│   │   ├── test_ratios.py
-│   │   ├── test_cashflow.py
-│   │   └── test_cagr.py
-│   │
-│   └── api/
-│
+│   └── kpi/
+│       ├── test_ratios.py
+│       ├── test_cashflow.py
+│       └── test_cagr.py
+|
+├── nifty100.db
+├── render.yaml
+├── Procfile
+├── README.md
+|
 ├── .env
 ├── .gitignore
-├── requirements.txt
-├── nifty100.db
-└── README.md
+└──  requirements.txt
+
 ```
 
 ---
@@ -469,27 +672,100 @@ The screening engine automatically reads these settings without requiring code c
 
 # 📈 Output Reports
 
-The project automatically generates multiple analytical reports.
+The platform automatically generates analytical reports, dashboards, PDFs, CSV exports, and API documentation throughout the ETL, analytics, reporting, and testing pipeline.
 
-## Financial Reports
+---
 
-- Screener Output
-- Peer Comparison Report
-- Capital Allocation Report
-- Validation Reports
-- Valuation Summary
+## 📊 Financial Reports
 
-## Dashboard Outputs
+| Output | Description |
+|---------|-------------|
+| `screener_output.xlsx` | Complete financial screener results |
+| `peer_comparison.xlsx` | Peer comparison workbook |
+| `valuation_summary.xlsx` | Company valuation metrics |
+| `cashflow_intelligence.xlsx` | Cash flow intelligence analysis |
+| `portfolio_summary.pdf` | Portfolio summary report |
+| `tearsheets/` | Individual 2-page company PDF tearsheets |
+| `sector/` | Sector-wise PDF reports |
+
+---
+
+## 📈 Analytics Outputs
+
+| Output | Description |
+|---------|-------------|
+| `capital_allocation.csv` | Capital allocation classification |
+| `analysis_parsed.csv` | NLP parsed CAGR values |
+| `pros_cons_generated.csv` | Auto-generated company pros & cons |
+| `cluster_labels.csv` | KMeans cluster assignments |
+| `portfolio_stats.csv` | Portfolio percentile statistics |
+| `outlier_report.csv` | Z-score based outlier detection |
+| `pattern_changes.csv` | Capital allocation pattern changes |
+| `distress_alerts.csv` | Companies with distress signals |
+
+---
+
+## 🧪 Data Quality & Validation
+
+| Output | Description |
+|---------|-------------|
+| `load_audit.csv` | ETL loading summary |
+| `validation_failures.csv` | Data quality validation report |
+| `parse_failures.csv` | NLP parsing failures |
+| `ratio_edge_cases.log` | KPI edge-case log |
+| `skipped_tearsheets.csv` | Companies skipped during PDF generation |
+
+---
+
+## 📉 Visual Reports
+
+| Output | Description |
+|---------|-------------|
+| `correlation_heatmap.png` | Pearson correlation heatmap |
+| `elbow_plot.png` | KMeans elbow curve |
+| `radar_charts/` | Peer comparison radar charts |
+
+---
+
+## 🌐 API & Testing
+
+| Output | Description |
+|---------|-------------|
+| `openapi.json` | OpenAPI 3.0 specification |
+| `postman_collection.json` | Postman API collection |
+| `pytest_report.html` | HTML test execution report |
+| `perf_notes.md` | Performance testing summary |
+
+---
+
+## 📄 Documentation
+
+| Output | Description |
+|---------|-------------|
+| `README.md` | Project documentation |
+| `analyst_guide.pdf` | User & analyst guide |
+| `acceptance_checklist.pdf` | Final project acceptance checklist |
+
+---
+
+## 🖥 Dashboard Outputs
+
+The interactive Streamlit dashboard provides rich visualizations and downloadable insights for financial analysis.
 
 - Interactive Plotly charts
-- KPI cards
+- KPI summary cards
 - Radar charts
+- Correlation heatmaps
+- Company trend visualizations
+- Sector comparison charts
 - CSV downloads
 - Company insights
+- Peer benchmarking dashboards
+- Capital allocation visualizations
 
 # 🚀 Development Journey
 
-The project was developed over **4 Agile Sprints**, with each sprint focusing on a major milestone in building the Financial Intelligence Platform.
+The project was developed over **6 Agile Sprints**, with each sprint focusing on a major milestone in building the Financial Intelligence Platform.
 
 ---
 
@@ -719,24 +995,162 @@ Performed:
 
 ---
 
+# 🟣 Sprint 5 – Intelligence & Reporting
+
+**Goal:** Enhance the platform with Natural Language Processing (NLP), advanced financial intelligence, automated PDF reporting, and portfolio-level analytics.
+
+### Natural Language Processing (NLP)
+
+Implemented an NLP module capable of extracting structured financial information from textual analysis.
+
+Features include:
+
+- Regex-based financial text parsing
+- CAGR extraction from business analysis
+- Structured analysis output generation
+- Parse failure logging
+- Manual review support
+
+### Pros & Cons Generator
+
+Developed a rule-based financial intelligence engine using:
+
+- 12 Pro rules
+- 12 Con rules
+- Confidence scoring
+- Automatic company insight generation
+
+### Cash Flow Intelligence
+
+Implemented advanced cash flow analytics including:
+
+- CFO Quality Score
+- CapEx Intensity
+- Distress Signal Detection
+- Deleveraging Detection
+- Capital Allocation Classification
+
+### Financial Reporting
+
+Generated professional reports including:
+
+- Company PDF Tearsheets
+- Sector Reports
+- Portfolio Summary Report
+- Cash Flow Intelligence Report
+- Distress Alert Report
+
+### Key Deliverables
+
+- NLP Parser
+- Pros & Cons Generator
+- Cash Flow Intelligence Engine
+- PDF Reporting System
+- Portfolio Summary
+- Sector Reports
+
+---
+
+# 🟠 Sprint 6 – API, Clustering & Quality Assurance
+
+**Goal:** Build a production-ready REST API, perform machine learning analysis, implement automated testing, and complete project documentation.
+
+### Machine Learning
+
+Implemented KMeans clustering using financial KPIs.
+
+Features include:
+
+- Five financial archetype clusters
+- Cluster profiling
+- Correlation heatmap
+- Outlier detection
+- Portfolio statistics
+
+### REST API
+
+Developed a FastAPI backend providing:
+
+- 16 REST API endpoints
+- Company APIs
+- Screener APIs
+- Sector APIs
+- Peer Comparison APIs
+- Portfolio Statistics API
+- Market Valuation API
+- Health Endpoint
+- OpenAPI 3.0 Documentation
+- ReDoc Documentation
+- Postman Collection
+
+### Testing & Quality Assurance
+
+Implemented comprehensive automated testing covering:
+
+- ETL Tests
+- KPI Formula Tests
+- API Endpoint Tests
+- Data Validation Tests
+- Performance Testing
+- Integration Testing
+
+Generated:
+
+- HTML Pytest Report
+- Performance Notes
+- Acceptance Checklist
+
+### Deployment
+
+Successfully deployed the FastAPI application on Render.
+
+Deployment includes:
+
+- Live REST API
+- Swagger UI
+- ReDoc Documentation
+- Production-ready OpenAPI Specification
+
+### Key Deliverables
+
+- FastAPI Server
+- REST API (16 Endpoints)
+- KMeans Clustering Module
+- Automated Test Suite
+- HTML Test Report
+- Analyst Guide
+- Acceptance Checklist
+- Production Deployment
+
+---
+
 # 🏆 Project Highlights
 
-Across all four sprints, the project achieved:
+Across **six Agile sprints**, the project evolved into a complete Financial Intelligence Platform covering data engineering, financial analytics, business intelligence, machine learning, reporting, REST API development, testing, and deployment.
 
-- ETL pipeline for financial data ingestion
-- SQLite database with validated financial data
-- 50+ financial KPIs
-- Configurable stock screening engine
-- Composite quality scoring
-- Peer percentile analysis
-- Radar chart generation
-- Capital allocation classification
-- Valuation analytics
-- Interactive Streamlit dashboard
-- Automated report generation
-- Comprehensive testing and validation
+### Major Achievements
 
-The final system provides a complete workflow from raw financial statements to interactive business intelligence dashboards for Nifty 100 companies.
+- ETL pipeline for ingesting and validating 12 financial datasets
+- SQLite database with normalized and validated financial data
+- 50+ financial KPIs across profitability, growth, leverage, efficiency, valuation, and cash flow
+- Configurable financial screening engine with multiple investment presets
+- Composite Quality Score and peer percentile ranking
+- Sector analysis and valuation analytics
+- NLP-based financial text parser
+- Automatic Pros & Cons generation using financial rule engine
+- Cash Flow Intelligence and Capital Allocation analytics
+- Professional PDF Company Tearsheets
+- Sector Reports and Portfolio Summary Report
+- KMeans clustering with five financial archetypes
+- Correlation heatmap and statistical portfolio analysis
+- Outlier detection using Z-score analysis
+- FastAPI-powered REST API with 16 production-ready endpoints
+- Interactive Swagger UI, ReDoc documentation, and OpenAPI specification
+- Automated ETL, KPI, Validation, and API test suites (100+ tests)
+- HTML Pytest report and performance testing
+- Production deployment on Render Cloud
+
+The completed platform provides an end-to-end workflow—from raw financial statements to validated analytics, interactive dashboards, machine learning insights, automated reports, and a cloud-hosted REST API for exploring financial intelligence across all **92 Nifty 100 companies**.
 
 # 🖥 Dashboard Screens
 
@@ -867,42 +1281,248 @@ Displays all available annual reports for the selected company with direct links
 
 ---
 
-# 📦 Generated Outputs
 
-The project automatically generates analytical reports and processed datasets.
+# 🧪 Testing & Quality Assurance
 
-| Output File | Description |
-|------------|-------------|
-| `load_audit.csv` | ETL loading summary |
-| `validation_failures.csv` | Data quality validation report |
-| `capital_allocation.csv` | Capital allocation classification |
-| `quality_screener.csv` | Quality preset results |
-| `growth_screener.csv` | Growth preset results |
-| `value_screener.csv` | Value preset results |
-| `dividend_screener.csv` | Dividend preset results |
-| `compounder_screener.csv` | Quality compounder results |
-| `turnaround_screener.csv` | Turnaround candidates |
-| `peer_comparison.xlsx` | Peer comparison workbook |
-| `screener_output.xlsx` | Complete screener output |
-| `valuation_summary.xlsx` | Company valuation metrics |
-| `valuation_flags.csv` | Discount & Caution companies |
+A comprehensive automated testing framework was implemented to verify the correctness, reliability, and performance of the Financial Intelligence Platform.
+
+## Test Categories
+
+### ETL Tests
+
+Validates the data ingestion pipeline by verifying:
+
+- Year normalization
+- Data loading
+- Schema validation
+- Column validation
+- Row counts
+- Data Quality rules
+
+### KPI Tests
+
+Verifies the correctness of financial calculations including:
+
+- Profitability ratios
+- Leverage ratios
+- Efficiency ratios
+- CAGR calculations
+- Cash Flow metrics
+- Edge-case handling
+
+### API Tests
+
+Automated tests validate the FastAPI endpoints including:
+
+- Health endpoint
+- Company endpoints
+- Screener endpoints
+- Sector endpoints
+- HTTP status codes
+- Invalid request handling
+
+### Performance & Integration Tests
+
+The project includes:
+
+- Concurrent API load testing
+- Dashboard performance verification
+- End-to-end integration testing
+- SQLite query optimization
+
+---
+
+## Test Reports
+
+Generate the complete HTML report using:
+
+```bash
+pytest tests/ --html=reports/pytest_report.html
+```
+
+The report contains:
+
+- Test execution summary
+- Passed / Failed statistics
+- Execution time
+- Individual test results
+
+---
+
+## Overall Test Coverage
+
+The project contains **100+ automated tests** covering:
+
+- ETL Pipeline
+- KPI Engine
+- Data Validation
+- REST API
+- Integration Testing
+
+All tests passed successfully before the final project submission.
+---
+
+# 🌐 REST API
+
+The project includes a production-ready REST API built using **FastAPI**, enabling programmatic access to financial data, screening, analytics, and reports.
+
+## Features
+
+- RESTful API architecture
+- 16 production-ready endpoints
+- Interactive Swagger UI
+- ReDoc API documentation
+- OpenAPI 3.0 Specification
+- Postman Collection
+- JSON responses
+- SQLite backend integration
+
+---
+
+## API Modules
+
+### Health
+
+- Service health monitoring
+- Database table statistics
+- API version information
+- Server uptime
+
+### Companies
+
+- Company listing
+- Company profile
+- Profit & Loss history
+- Balance Sheet history
+- Cash Flow history
+- Financial Ratios
+- Company Tearsheet
+
+### Financial Screener
+
+Supports filtering companies using:
+
+- ROE
+- Debt-to-Equity
+- Free Cash Flow
+- Revenue CAGR
+- PAT CAGR
+- P/E Ratio
+- Sector filters
+
+### Sector Analytics
+
+- Sector summary
+- Sector-wise companies
+- Median financial metrics
+
+### Peer Analytics
+
+- Peer comparison
+- Percentile rankings
+- Radar chart data
+
+### Valuation
+
+- Historical valuation multiples
+- Market capitalization metrics
+
+### Portfolio Analytics
+
+- Portfolio percentile statistics
+
+### Documents
+
+- Annual report links
+- URL validation status
+
+---
+
+## API Documentation
+
+### Swagger UI
+
+```
+http://127.0.0.1:8000/docs
+```
+
+### ReDoc
+
+```
+http://127.0.0.1:8000/redoc
+```
+
+---
+
+## Live Deployment
+
+The REST API is deployed on **Render**.
+
+**Base URL**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com
+```
+
+**Swagger UI**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com/docs
+```
+
+**ReDoc**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com/redoc
+```
+
+---
+
+## Sample API Request
+
+```bash
+curl https://prashanth-nifty100-financial-intelligence.onrender.com/api/v1/companies/TCS
+```
+
+The API returns JSON responses and can be integrated with dashboards, web applications, mobile apps, or external analytics platforms.
+
+{
+  "ticker": "TCS",
+  "company_name": "Tata Consultancy Services",
+  "sector": "Information Technology",
+  "roe": 52.4,
+  "roce": 63.1
+}
 
 ---
 
 # ⚙ Requirements
 
-- Python 3.x
-- SQLite
+### Software Requirements
+
+- Python 3.10+
+- SQLite 3
+- Git
+
+### Python Libraries
+
+- FastAPI
+- Uvicorn
 - Streamlit
 - Pandas
 - NumPy
 - Plotly
+- scikit-learn
+- SQLAlchemy
+- ReportLab
 - OpenPyXL
 - PyTest
-- ReportLab
-- scikit-learn
+- pytest-html
+- HTTPX
+- Requests
+- PyYAML
 
-Install all dependencies using:
+Install all project dependencies using:
 
 ```bash
 pip install -r requirements.txt
@@ -912,19 +1532,16 @@ pip install -r requirements.txt
 
 # ▶️ Running the Project
 
-## Step 1
-
-Clone the repository.
+## 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Gnana-Prashanth/nifty100-financial-intelligence
+cd NIFTY100_FINANCIAL_INTELLIGENCE
 ```
 
 ---
 
-## Step 2
-
-Install dependencies.
+## 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -932,19 +1549,23 @@ pip install -r requirements.txt
 
 ---
 
-## Step 3
+## 3. Run the ETL Pipeline
 
-Run the dashboard.
+```bash
+python src/etl/db_loader.py
+```
+
+This loads, validates, and stores all datasets into the SQLite database.
+
+---
+
+## 4. Launch the Streamlit Dashboard
 
 ```bash
 streamlit run src/dashboard/app.py
 ```
 
----
-
-## Step 4
-
-Open the application in your browser.
+Open:
 
 ```
 http://localhost:8501
@@ -952,29 +1573,108 @@ http://localhost:8501
 
 ---
 
-# 🔄 Project Workflow
+## 5. Launch the FastAPI Server
+
+```bash
+uvicorn src.api.main:app --reload
+```
+
+API available at:
 
 ```
-Raw Excel Files
-        │
-        ▼
-ETL Pipeline
-        │
-        ▼
-SQLite Database
-        │
-        ▼
-Financial Analytics
-        │
-        ▼
-Screening Engine
-        │
-        ▼
-Peer Analysis
-        │
-        ▼
-Valuation Module
-        │
-        ▼
-Interactive Streamlit Dashboard
+http://127.0.0.1:8000
 ```
+
+Swagger UI:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+ReDoc:
+
+```
+http://127.0.0.1:8000/redoc
+```
+
+---
+
+## 6. Run the Test Suite
+
+Execute all automated tests:
+
+```bash
+pytest tests/
+```
+
+Generate the HTML report:
+
+```bash
+pytest tests/ --html=reports/pytest_report.html
+```
+
+---
+
+## 7. Live Deployment
+
+The REST API is deployed on Render.
+
+**Base URL**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com
+```
+
+**Swagger UI**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com/docs
+```
+
+**ReDoc**
+
+```
+https://prashanth-nifty100-financial-intelligence.onrender.com/redoc
+```
+
+---
+
+# 🔄 Project Workflow
+
+```text
+                 Raw Excel Files
+                        │
+                        ▼
+           ETL & Data Validation Pipeline
+                        │
+                        ▼
+                SQLite Database
+                        │
+        ┌───────────────┼────────────────┐
+        │               │                │
+        ▼               ▼                ▼
+ Financial Analytics   NLP Engine    Reporting Engine
+        │               │                │
+        ├───────────────┼────────────────┤
+        │               │                │
+        ▼               ▼                ▼
+ Screening Engine  ML Analytics    PDF Reports
+        │               │                │
+        ├───────────────┼────────────────┤
+        │               │                │
+        ▼               ▼                ▼
+ Streamlit Dashboard  FastAPI REST API  Automated Tests
+        │               │                │
+        └───────────────┼────────────────┘
+                        ▼
+              Render Cloud Deployment
+```
+
+# 🚀 Future Enhancements
+
+- User authentication
+- Portfolio tracking
+- Real-time stock prices
+- AI-powered financial summaries
+- Cloud database migration
+- Docker containerization
